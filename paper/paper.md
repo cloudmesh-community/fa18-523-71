@@ -36,6 +36,9 @@
 
 * :o: copied images do not have citation in caption
 
+* :o: uf these issues would not be here, this paper could easily be placed in the book instead of the proceedings. I urge you to fix it. It does not take much time to do.
+
+
 ### Abstract\: 
 
 The growing trend of ubiquitous computing has made Internet of Things (IoT) a very important technology in a myriad of industries. Almost all industries today are using network connected sensors and devices to diagnose the performance of their systems and the data generated is being used to understand maintenance, repair issues of machines etc., and in bettering the output produced by them. With humungous growth of such connected devices not only in factories and machinery but also in daily walks of life, the data generated is growing exponentially. To store and process such huge data, Big-Data systems are leveraged thereby making them play a pivotal role in running and functioning of IoT.  In this paper, a brief introduction to IoT and the infrastructure of IoT is discussed in the first sections followed by an introduction to Big Data and the role of big data systems in working of IoT. Use cases and applications of IoT and Big Data in real world are also provided in paper, followed by a brief overview of the future trends with regards to IoT.  
@@ -90,17 +93,9 @@ Interactions between digital mediums require special architecture and there are 
 
   
 
-- Physical Devices and controllers\: 
+- *Physical Devices and controllers:* The lowest layer of this Internet of Things (IoT) architecture is comprised of physical devices and controllers. The layer consists of devices such as electronic gadgets, sensors and activators which input the needed data from various sources.  
 
-  
-
-The lowest layer of this Internet of Things (IoT) architecture is comprised of physical devices and controllers. The layer consists of devices such as electronic gadgets, sensors and activators which input the needed data from various sources.  
-
-  
-
-   
-
-  
+:o: this is an example on how you do bulle lists in markdown, fix throughut the paper  
 
 - Connectivity\: 
 

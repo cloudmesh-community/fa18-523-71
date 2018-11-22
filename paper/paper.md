@@ -72,7 +72,7 @@ Keywords\:IoT, Big Data, Analytics, fa18-523-59, fa18-523-71.
 
   
 
-Since its inception, internet has been all about collaboration between people across the globe. Games, social media, images, movies etc., available in the internet were created by people for people. It caused a revolution in the way people connected and it's now woven into the lives of everyone in one or the other way. Internet of things has taken this technology to the next level by introducing physical objects to the digital world.  The term IoT was coined by Kevin Ashton who envisioned a future where computers could be connected to things and by leveraging the data collected could manage the things with little human intervention.[]   
+Since its inception, internet has been all about collaboration between people across the globe. Games, social media, images, movies etc., available in the internet were created by people for people. It caused a revolution in the way people connected and it's now woven into the lives of everyone in one or the other way. Internet of things has taken this technology to the next level by introducing physical objects to the digital world.  The term IoT was coined by Kevin Ashton who envisioned a future where computers could be connected to things and by leveraging the data collected could manage the things with little human intervention.[@wiki-kevin-iot]   
 
   
 

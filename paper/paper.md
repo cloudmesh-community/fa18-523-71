@@ -14,69 +14,40 @@
 
   
 
-
+* :o: there are no colons in headings
 
 * :o: if image is copied you need bibtex citation in caption 
 
+* :o: merge abstract and introduction
 
+* :o: remove unnecessary \
 
+* :o: there are lots of empty lineshere merge them so that only one is left between different sections
   
-
+* :o: use proper markdow, that markdown you use is not working, for example in the hyperlinks, the images indentationion you use, and other simple things. Whatever editor you use does no do it correctly
   
+* :o:captions in images missing you see them in epub if you do it right
+
+* :o: i fixed some things, but do not have time for more
 
 ### Abstract\: 
 
-  
-
-   
-
-  
-
 The growing trend of ubiquitous computing has made Internet of Things (IoT) a very important technology in a myriad of industries. Almost all industries today are using network connected sensors and devices to diagnose the performance of their systems and the data generated is being used to understand maintenance, repair issues of machines etc., and in bettering the output produced by them. With humungous growth of such connected devices not only in factories and machinery but also in daily walks of life, the data generated is growing exponentially. To store and process such huge data, Big-Data systems are leveraged thereby making them play a pivotal role in running and functioning of IoT.  In this paper, a brief introduction to IoT and the infrastructure of IoT is discussed in the first sections followed by an introduction to Big Data and the role of big data systems in working of IoT. Use cases and applications of IoT and Big Data in real world are also provided in paper, followed by a brief overview of the future trends with regards to IoT.  
 
-  
-
-   
-
-  
 
 ---  
 
-  
-
-   
-
-  
-
-Keywords\:IoT, Big Data, Analytics, fa18-523-59, fa18-523-71.  
-
-  
-
-   
-
-  
+Keywords:IoT, Big Data, Analytics, fa18-523-59, fa18-523-71.  
 
 ---  
 
-  
 
-   
-
-  
-
-### Introduction\: 
-
-  
-
-   
-
-  
+### Introduction
 
 Since its inception, internet has been all about collaboration between people across the globe. Games, social media, images, movies etc., available in the internet were created by people for people. It caused a revolution in the way people connected and it's now woven into the lives of everyone in one or the other way. Internet of things has taken this technology to the next level by introducing physical objects to the digital world.  The term IoT was coined by Kevin Ashton who envisioned a future where computers could be connected to things and by leveraging the data collected could manage the things with little human intervention[@wiki-kevin-iot].   
 
-  
-
-In today\'s bigdata world, Internet of things (IoT) has established itself in different fields of life by making the processes more efficient and robust. As a result, with increase in digital connections between physical objects and the internet, data generation rate is going up and the availability of vast amount of data has opened doors for different kinds of analyses with the help of big data technologies. IoT allows a device to connect with different types of things like electronic devices, software\'s and sensors which exchange continuous streams of data, without any human interaction. The features offered by IoT allow companies to analyze collected data and use it for business intelligence. Also, it can be useful to generate various models that can improve daily routine experience of the users. By 2020, Gartner has expected the IoT to connect over 20.4 billion things together ranging from mobile devices, vehicles, robots, and various industrial equipment\'s [@www-iot-gartner].  
+ 
+In today's bigdata world, Internet of things (IoT) has established itself in different fields of life by making the processes more efficient and robust. As a result, with increase in digital connections between physical objects and the internet, data generation rate is going up and the availability of vast amount of data has opened doors for different kinds of analyses with the help of big data technologies. IoT allows a device to connect with different types of things like electronic devices, software's and sensors which exchange continuous streams of data, without any human interaction. The features offered by IoT allow companies to analyze collected data and use it for business intelligence. Also, it can be useful to generate various models that can improve daily routine experience of the users. By 2020, Gartner has expected the IoT to connect over 20.4 billion things together ranging from mobile devices, vehicles, robots, and various industrial equipment's [@www-iot-gartner].  
 
   
 
@@ -214,8 +185,7 @@ Big Data analytics helps analyze data sourced from Internet of Things (IoT) whic
 Big data helps businesses in coming up with inferences, insights and actionable recommendations by analyzing the unstructured or semi-structured data. Billions of devices are expected to be connected to the internet and hence for the functionalities of these devices to be held, data is needed.  IoT will be a major data source for the data that is to be analyzed by companies for growth and effective decision making with the nexus of big data and the IOT data from the connected devices making it cheaper and faster. The process of IoT with Big Data is seen in +@fig:iotprocess [@www-iot-iotandbigdata].  
 
   
-
-  ![iotprocess](images/IoT%20and%20Big%20data%20Analysis.jpg) {#fig: iotprocess} 
+![iotprocess](images/IoT%20and%20Big%20data%20Analysis.jpg){#fig:iotprocess} 
 
   
 
@@ -319,7 +289,7 @@ The Internet of Things and Big Data coming together play an important role in co
 
   
 
-  ![iotapps](images/IoT%20application.png) {#fig:iotapps} 
+![iotapps](images/IoT%20application.png){#fig:iotapps} 
 
   
 

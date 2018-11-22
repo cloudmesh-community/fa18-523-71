@@ -315,7 +315,7 @@ While IoT seems to be promising, there are many challenges associated with it. W
 
   
 
-The Internet of Things and Big Data coming together plays and important role in commercial, industrial and other applications to offer better data sights and inferences. Some of the most common application are shown in the figure +@fig:iotapps [@www-iot-intro].  
+The Internet of Things and Big Data coming together play an important role in commercial, industrial and other applications to offer better data sights and inferences. Some of the most common application are shown in the figure +@fig:iotapps [@www-iot-intro].  
 
   
 

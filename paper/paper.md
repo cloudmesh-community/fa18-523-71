@@ -1,4 +1,4 @@
-# IOT and Big Data Real World Applications and Future Trends  :wave: :exclamation: fa18-523-71 fa18-523-59 
+# IOT and Big Data: Applications and Future Trends :smiley: :wave: :exclamation: fa18-523-71 fa18-523-59 
 
   
 
@@ -12,198 +12,134 @@
 
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-71/edit/master/paper/paper.md) 
 
-  
-
-* :o: there are no colons in headings
-
-* :o: if image is copied you need bibtex citation in caption 
-
-* :o: merge abstract and introduction
-
-* :o: remove unnecessary \
-
-* :o: there are lots of empty lineshere merge them so that only one is left between different sections
-  
-* :o: use proper markdow, that markdown you use is not working, for example in the hyperlinks, the images indentationion you use, and other simple things. Whatever editor you use does no do it correctly
-  
-* :o:captions in images missing you see them in epub if you do it right
-
-* :o: i fixed some things, but do not have time for more
-
-* :o: title sounds a bit awkward
-
-* :o: itemize lists with bullet points and following paragraph are not shwing up correctly e.g. non valid makedown
-
-* :o: copied images do not have citation in caption
-
-* :o: uf these issues would not be here, this paper could easily be placed in the book instead of the proceedings. I urge you to fix it. It does not take much time to do.
-
-
-### Abstract:
-
-The growing trend of ubiquitous computing has made Internet of Things (IoT) a very important technology in a myriad of industries. Almost all industries today are using network connected sensors and devices to diagnose the performance of their systems and the data generated is being used to understand maintenance, repair issues of machines etc., and in bettering the output produced by them. With humungous growth of such connected devices not only in factories and machinery but also in daily walks of life, the data generated is growing exponentially. To store and process such huge data, Big-Data systems are leveraged thereby making them play a pivotal role in running and functioning of IoT.  In this paper, a brief introduction to IoT and the infrastructure of IoT is discussed in the first sections followed by an introduction to Big Data and the role of big data systems in working of IoT. Use cases and applications of IoT and Big Data in real world are also provided in paper, followed by a brief overview of the future trends with regards to IoT.  
-
-
+ 
 ---  
 
-Keywords:IoT, Big Data, Analytics, fa18-523-59, fa18-523-71.  
+Keywords:IoT, Big Data, Analytics, Smart devices  fa18-523-59, fa18-523-71.  
 
 ---  
 
 
-### Introduction:
+### Introduction
 
-Since its inception, internet has been all about collaboration between people across the globe. Games, social media, images, movies etc., available in the internet were created by people for people. It caused a revolution in the way people connected and it's now woven into the lives of everyone in one or the other way. Internet of things has taken this technology to the next level by introducing physical objects to the digital world.  The term IoT was coined by Kevin Ashton who envisioned a future where computers could be connected to things and by leveraging the data collected could manage the things with little human intervention[@wiki-kevin-iot].   
+Since its inception, internet has been all about collaboration between people across the globe. Games, social media, images, movies etc., available in the internet were created by people for people. It caused a revolution in the way people connected with each other and it\s now woven into their lives in one or the other way.With the rise in ubiquitous computing, Internet of things has taken this technology to the next level.Physical objects were now introduced and connected to the digital world. The term IoT was coined by Kevin Ashton who envisioned a future where computers could be connected to things and by leveraging the data collected could manage the things with little human intervention[@wiki-kevin-iot].   
+ 
+In today\'s bigdata world, Internet of things (IoT) has established itself in different fields of life by making processes more efficient and robust. As a result, with increase in digital connections between physical objects and the internet, data generation rate is going up and the availability of vast amount of data has opened doors for different kinds of analyses with the help of the services provided by big data technologies. IoT allows a device to connect with different types of things like electronic devices, software\'s and sensors which exchange continuous streams of data, without any human intervention. The features offered by IoT allow companies to analyze their collected data and use it for business intelligence. Also, it can be useful to generate various models that can improve daily routine experience of the users. By 2020, Gartner has expected the IoT to connect over 20.4 billion things together ranging from mobile devices, vehicles, robots, and various industrial equipment etc [@www-iot-gartner].  
 
  
-In today's bigdata world, Internet of things (IoT) has established itself in different fields of life by making the processes more efficient and robust. As a result, with increase in digital connections between physical objects and the internet, data generation rate is going up and the availability of vast amount of data has opened doors for different kinds of analyses with the help of big data technologies. IoT allows a device to connect with different types of things like electronic devices, software's and sensors which exchange continuous streams of data, without any human interaction. The features offered by IoT allow companies to analyze collected data and use it for business intelligence. Also, it can be useful to generate various models that can improve daily routine experience of the users. By 2020, Gartner has expected the IoT to connect over 20.4 billion things together ranging from mobile devices, vehicles, robots, and various industrial equipment's [@www-iot-gartner].  
+The huge amount of data generated by IoT platform is not self-sufficient to generate insights and improve processes,it needs to be handled, processed, managed, integrated, analyzed in association with big data technologies, in a scalable, cost-effective way and more importantly in real time. Hence, digital world networks of physical objects and big data technologies can collaboratively be used to achieve complex tasks in the field of health care, manufacturing Industries, energy conservation, home automation, transportation system, education and research to improve quality of life.  
 
-  
-The huge amount of data generated by IoT platform is not self-sufficient it needs to be handled, processed, managed, integrated, analyzed with big data technologies, in a scalable, cost-effective way and more importantly in real time. Hence, digital world networks of physical objects and big data technologies can collaboratively be used to achieve complex tasks in the field of health care, manufacturing Industries, energy conservation, home automation, transportation system, education and research to improve quality of life.  
 
-  
-
-   
-
-  
-
-### Architecture:
+### Architecture
+ 
 
 Interactions between digital mediums require special architecture and there are many architectures for IoT. The most common IoT Ecosystem architecture is as shown in +@fig:iotarchitecture . It consists of seven different layers [@www-iot-architecture].  
 
-![IoT Architecture[@www-iot-architecture]](images/IoT%20Architecture.png){#fig:iotarchitecture}
- 
- 
-- *Physical Devices and controllers:* The lowest layer of this Internet of Things (IoT) architecture is comprised of physical devices and controllers. The layer consists of devices such as electronic gadgets, sensors and activators which input the needed data from various sources.  
+![iotarchitecture ](images/IoT%20Architecture.png) 
+{#figure 1:IoT Architecture} [@www-iot-architecture]
+   
 
-:o: this is an example on how you do bulle lists in markdown, fix throughut the paper  
+- *Physical Devices and controllers:* The lowest layer of this Internet of Things (IoT) architecture is comprised of physical devices and controllers. The layer consists of devices such as electronic gadgets, sensors and activators which input the needed data from various sources.  
 
 - *Connectivity:* Next layer is termed as connectivity layer which takes care of communication between sensors and processing units. These processing units try converting input data from sensors into an understandable format with help of certain protocols and perform selection on data that is to be processed further into the IoT architecture creating thresholds for incoming data.  
 
-- *Edge computing:* Edge Computing does the analysis of data elements. Their transformation is achieved by analyzing and filtering data before it is processed further thereby reducing huge computing and networking costs. The incoming raw data from sensors and activators can be selectively sent for further analysis. Also, one of the major concerns of Internet of Things (IoT) architecture is Data Security. Edge computing overcomes this to a considerable extent by feeding some of the sensitive data into sensor devices. Also, devices known as edge devices are coming into existence which will help in analytics and computation purposes delivering data deliverables at a much faster speed in a robust manner. These edge devices will further help in maintaining connectivity with connected devices at source thereby allowing us to have a luxury of new smart devices.  
+- *Edge computing:* Edge Computing does the analysis of data elements. Their transformation is achieved by analyzing and filtering data before it is processed further thereby reducing huge computing and networking costs. The incoming raw data from sensors and activators can be selectively sent for further analysis. Also, one of the major concerns of Internet of Things (IoT) architecture is Data Security. Edge computing overcomes this to a considerable extent by feeding some of the sensitive data into sensor devices. Also, devices known as edge devices are coming into existence which will help in analytics and computation purposes, delivering data deliverable at a much faster speed in a robust manner. These edge devices will further help in maintaining connectivity with connected devices at source thereby allowing us to have a luxury of new smart devices.  
 
-- *Data Accumulation:* Data Accumulation is largely done in distributed frameworks as incoming data is in humungous volumes and variety while being input at a great velocity. Data is distributed into small sets of data using key/pair values just as in the case of data tuples, mapped and then reduced to small chunks of data before processing it further. Also, these days, organizations are heading towards PaaS (Platform as a Service) as a cloud platform for hosting data publicly and at the same time securing the data, thus customizing it to their needs.  
-
+- *Data Accumulation:* Data Accumulation is largely done in distributed frameworks as incoming data is in humongous volumes and variety while being input at a great velocity. Data is distributed into small sets of data using key/pair values just as in the case of data tuples, mapped and then reduced to small chunks of data before processing it further. Also, these days, organizations are heading towards PaaS (Platform as a Service) as a cloud platform for hosting data publicly and at the same time securing the data, thus customizing it to their needs.  
+ 
 - *Data Abstraction:* Different translation rules are brought into place for securing connectivity of specific devices. Also, a single model for data abstraction is created and provided to all the devices of a specific service thereby achieving integration of various devices.  
 
+ 
 - *Application:* The Application layer consists of reporting and analytics part of the architecture. All the efforts that were put into data accumulation, abstraction, storage, transformation, cleansing, preparing smaller chunks will be benefited only if proper analytics is performed and strategic Business Intelligence reports are generated out of this data.  
 
-- *Collaboration and processes:* Collaboration and processes layer is the user interface layer where people i.e., the end users and the business processes come into picture. In the end, it is the customer who engages with the business processes and as both are on the same page and hence the name Collaboration and processes layer.  
+
+- *Collaboration and processes:* Collaboration and processes layer is the user interface layer where people i.e., the end users and the business processes come into picture. In the end, it is the customer who engages with the business processes and as it brings both of them together, it\'s named as collaboration and processes layer.  
 
      
+### Big Data and IoT Together
 
+Big Data analytics helps analyze data sourced from Internet of Things (IoT) which has multiple devices connected to it. These devices can be sensors, activators, websites, social media etc. Internet of Things (IoT) has had its advancements and applications in fields such as automobile industry, health-care, transportation & logistics, education, commercialized residences etc., and incoming data from these domains is in the order of billions of gigabytes per day, at the same time it is largely diversified. Also, the velocity of the inward data flow is extremely high. A Big Data platform then takes this generated data as its input and stores it into files. Since the input data is unstructured or semi-structured, frameworks used to store this data in an intermediate place are largely distributed. Different big data tools can be used for storing this huge data such as Hadoop, Apache Hive etc. One of the most prominent ones used in the industry today is the Hadoop Architecture which has Hadoop Distributed File System (HDFS) and MapReduce as its two components to process data into small chunks for report generation and analysis purposes. The data is in a way captured, integrated, mapped into different data sets of tuples and then processed to warehouses for storage. The data warehouses help store the legacy data in them and allow generating reports on the desired data at any given point in time [@www-iot-bigdataanalytics].  
+
+![fig2](images/IoT%20and%20big%20data%20platform.jpg) 
+{#figure2: Big Data and IoT }[@www-iot-bigdataanalytics]
+
+Big data helps businesses in coming up with inferences, insights and actionable recommendations by analyzing the unstructured or semi-structured data. Billions of devices are expected to be connected to the internet and hence for the functionalities of these devices to be held, data is needed.  IoT will be a major data source for the all the analyses that will be performed by companies for growth and effective decision making, with the nexus of big data and the IOT data from the connected devices making it cheaper and faster. The process of IoT with Big Data is seen in +@fig:iotprocess [@www-iot-iotandbigdata].  
   
-
-### Big Data and IoT Together:
-
-Big Data analytics helps analyze data sourced from Internet of Things (IoT) which has multiple devices connected to it. These devices can be sensors, activators, websites, social media etc. Internet of Things (IoT) has had its advancements and applications in fields such as automobile industry, healthcare, transportation & logistics, education, commercialized residences etc., and incoming data from these domains is of in the order of billions of gigabytes every day, at the same time it is largely diversified. Also, the velocity of the inward data flow is extremely high. A Big Data platform then takes this generated data as its input and stores it into files. Since the input data is unstructured or semi-structured, frameworks used to store this data in an intermediate place are largely distributed. Different big data tools can be used for storing this huge data such as Apache Hadoop, Apache Hive etc. One of the most prominent ones used in the industry today is the Hadoop Architecture which has Hadoop Distributed File System and MapReduce as its two components to process data into small chunks for the report generations and analysis purpose. The data is in a way captured, integrated, mapped into different data sets of tuples and then processed to warehouses for storage. The data warehouses help store the legacy data in them and allow generating reports on the desired data at any given point in time [@www-iot-bigdataanalytics]. This is show in +@fig:bigdataandiot.  
-
+![iotprocess](images/IoT%20and%20Big%20data%20Analysis.jpg) {#figure3: IoT and Big data }[@www-iot-iotandbigdata] 
   
-
-![Big Data and IoT[@www-iot-bigdataanalytics]](images/IoT%20and%20big%20data%20platform.jpg){#fig:bigdataandiot}
-
+- Data, which is sourced from various connected devices or from disparate data repositories is collected and stored in a big data platform. 
   
-
-
-
-Big data helps businesses in coming up with inferences, insights and actionable recommendations by analyzing the unstructured or semi-structured data. Billions of devices are expected to be connected to the internet and hence for the functionalities of these devices to be held, data is needed.  IoT will be a major data source for the data that is to be analyzed by companies for growth and effective decision making with the nexus of big data and the IOT data from the connected devices making it cheaper and faster. The process of IoT with Big Data is seen in +@fig:iotprocess [@www-iot-iotandbigdata].  
-
-  
-![IoT Process [@www-iot-iotandbigdata]](images/IoT%20and%20Big%20data%20Analysis.jpg){#fig:iotprocess}
-  
-
-
-- Data, which is sourced from various connected devices or from disparate data repositories is collected and stored in a big data platform. Velocity, Volume and Variety are the three factors incoming data is largely dependent on as it is real-time, making big data and IoT collaboration all about real-time processing of data   
-
-
 - A big data system is often referred to as a distributed database as incoming data is sourced from different data repositories and is then stored in the form of flat files, in case of a Hadoop big data platform it\'s stored in the Hadoop Distributed File System (HDFS). Another big component of the Hadoop platform is Hadoop MapReduce which is used to process independent data chunks efficiently. The Hadoop MapReduce framework works on a MapReduce algorithm where data in form of files is converted into a data set using key/value pairs analogous to dictionaries and tuples. The output of a Map is then given as an input to the reduce stage where different data sets of tuples are converted into smaller chunks of data in order to be processed further.  
 
-  
-
 - Reports are then generated by taking data from the concerned data warehouses using the Business Intelligence Report generation tools as per client/user specifications. The same is accomplished through complex query writing into databases. Therefore, big data platform paves way for this disparate data, collected from different ‘collected devices’ using the Internet of Things (IoT), to be leveraged in deriving different business trends and business insights.  
+ 
+### Impacts of IOT on Big data  
 
-  
-
-### Impacts of IOT on Big data: 
-
-
-The Internet of Things (IoT) has impacted the Big data platform in a great deal and there is going to be a significant impact which lies ahead as well. Today, Humungous amounts of data are generated every hour by devices connected to the IoT and in the future there are going to be more and more devices connected to the IoT invariably making it difficult for data collection and analytics platforms to effectively and efficiently keep producing results [@www-iot-futureofiot], [@www-iot-howbigdatapoweriot].  
-
+The Internet of Things (IoT) has impacted the Big data platform in a great deal and there is going to be a significant impact which lies ahead as well. Today, Humongous amounts of data are generated every hour by devices connected to the IoT and in the future there are going to be more and more devices connected to the IoT invariably making it difficult for data collection and analytics platforms to effectively and efficiently keep producing results [@www-iot-futureofiot], [@www-iot-howbigdatapoweriot].  
 
 - *Big Data Storage:* With data being sourced from various disparate data sources and connected devices as is the case working with Internet of Things (IoT), the data storage platforms need to be very flexible as the incoming data is in the order of billions of terabytes. Also, the rate at which data is input to a data storage platform is unlike the natural data speed. One of the main features the companies seek is hosting data in cloud systems so that the data is kept publicly secure and as per the company requirements. PaaS (Platform as a Service) is one such model the companies are eyeing, to serve their purpose of effectively handling the continuous inward flow of diversified data and hosting them on cloud as PaaS provides this functionality.  
 
 - *Big data Security:* Major threats as far as big data security is concerned are to the Data Mining solutions as they provide the strategic solutions to the business. Hence it becomes increasingly important to secure them against the security breaches caused by fake users. There needs to be proper encryption of authentication measures of the users. Also, it can be resolved with the use of metadata (data about data) as to who accessed what type of data and so on. The other prominent security issue with Big Data is of the distributed frameworks that are used for data storage purposes. Hadoop being one such open source big data platform where more systems can be prone to the security issues as the data processed is distributed over many distributed frameworks.  
 
-- *Big data Analytics:* The analytics of big data consists of a lot of challenges as the inward flow of data is quite unstructured considering it is from different connected devices like the sensors and websites. Hence the big data consists of three V\'s; Volume – huge volumes of data sourced from sensors is to be analyzed. Variety – Data is unstructured and is in the form of 3d data, 2d data, log files etc. Velocity – the speed with which the data is processed which is nothing but real-time processing and continuous data processing. Hence, we see data complexity in Big Data Analytics.  
+- *Big data Analytics:* The analytics of big data consists of a lot of challenges as the inward flow of data is quite unstructured considering it is from different connected devices like the sensors and websites. Hence big data consists of three V\'s: Volume, huge volumes of data sourced from sensors is to be analyzed. Variety, Data is unstructured and is in the form of 3D data, 2D data, log files etc. Velocity, the speed with which the data is processed which is nothing but real-time processing and continuous data processing. Hence, we see data complexity in Big Data Analytics.  
 
-- *Tools of big data:* In order to draw effective insights and inferences from the data, proper big data tools need to be in place. If the analysis of data is not done in a proper manner, then the efforts that are put into the collection of data from various data repositories and processing it through will be of no use. The commonly used Big Data tools are Apace Hadoop, Apache Hive, Storm, Cloudera, Qubole etc.  
+- *Tools of big data:* In order to draw effective insights and inferences from the data, proper big data tools need to be in place.To make sure pivotal information is extracted in form of insights from the data while secureing it, different Big data technologies are leveraged. The commonly used Big Data tools are Apache Hadoop, Apache Hive, Storm, Cloudera, Qubole etc.  
 
-  
+### Challenges
 
-### Challenges:
+While IoT seems to be promising, there are many challenges associated with it. With increase in number of data sources and with these sources storing a large variety of data including private data, there is an increase in security concerns all over. Poor connectivity also seems to be an issue when the number of connected devices is in a large number. The business models that are implemented are expected to be robust and coming up with feasible, cost effective and efficient models is still a challenge.  With time there may be compatibility issues between the technologies in the system as new standards may be implemented which will thereby increase the number of hardware and software devices connected. Data reliability is also a growing concern as the available data if corrupted will be leading to bad decisions. Increase in connected devices may also limit the speed with which data is collected   [@www-iot-futureofiot], [@www-iot-challenesofiot].  
 
-While IoT seems to be promising, there are many challenges associated with it. With increase in number of data sources and with these sources storing a large variety of data including private data, there is an increase in security concerns all over. Poor connectivity also seems to be an issue when the number of connected devices is in a large number. The business models that are implemented are expected to be robust and coming up with a feasible, cost effective and efficient models is still a challenge.  With time there may be compatibility issues between the technologies in the system as new standards may be implemented which will thereby increase the number of hardware and software devices connected. Data reliability is also a growing concern as the available data if corrupted will be leading to bad decisions. Increase in connected devices may also limit the speed with which data is collected [@www-iot-futureofiot], [@www-iot-challenesofiot].  
 
-  
+### Applications  
 
-### Applications:
+The Internet of Things and Big Data coming together play an important role in commercial, industrial and other applications to offer better data insights and inferences. Some of the most common application are shown in the figure +@fig:iotapps [@www-iot-intro].  
 
-The Internet of Things and Big Data coming together play an important role in commercial, industrial and other applications to offer better data sights and inferences. Some of the most common application are shown in the +@fig:iotapps [@www-iot-intro].  
+![iotapps](images/IoT%20application.png) {#figure4: IoT Application} [@www-iot-intro]   
 
-  
-
-![IoT Application [@www-iot-intro]](images/IoT%20application.png){#fig:iotapps}
-
-  
 - *Application in Manufacturing Industries:* The machinery that is enabled with the Internet of Things (IoT) assists in transmitting operation related information to the managers which helps them identify the areas of optimization and the process of automation. It is also used in facilitative management of machine tools expected to function in specified ranges of temperature. Sensors enabled by IoT can help monitor such machines sending alerts as soon as sensor senses some deviation from the original specifications. Operating machinery in the specified specification range in turn increases the efficiency of operations, diminishes the downtime of machines, thereby, helps reducing the costs and conserving energy. Another application of IoT in the manufacturing domain is the Production Flow monitoring where production lines monitoring is enabled from refining to the packaging of final products. If there is any discrepancy found in operations, then the IoT enabled monitoring of processes helps in adjusting them and managing them better from the cost of operation point of view and avoiding wastes during the production process. Further, IoT helps in tracking and tracing of inventory while delivering the products on a global basis which helps in managers getting a clear idea of the current supply chain process. We can ensure the safety of the workers in any given project by monitoring the performance indicators thereby reducing the injury rate and any relevant loss to the organization. IoT significantly helps in quality control over the life cycle of a manufacturing process [@www-iot-applicationbenefits].  
-
+  
 - *Application in Health care:* The Internet of Things (IoT) has advanced its applications in the field of Healthcare by a great deal right from monitoring remotely to getting accustomed to medication. It has served as a helping hand to the doctors to make significant progress in patients\' health. The hospitals have started using Internet of Things (IoT) ensuring every patient gets maximum benefits and stays healthier no matter how small the disease to be cured is. The IoT has guided the healthcare industry in improving the implementation of healthcare processes in a myriad of ways.   
 
-- *IoT for managing inventory*: There is a considerable amount of change in the way the hospitals have taken advantage of the IoT inventory management for the inventory control in the warehouses and the pharmacies.  
   
-- *IoT for optimization of healthcare workflow:* Adoption of wireless infrastructure have helped manage the throughput and perform an analysis of the existence of bottlenecks, if any, in the system and that we could get rid of the same.  
+ * *IoT for managing inventory*: There is a considerable amount of change in the way the hospitals have taken advantage of the IoT inventory management for the inventory control in the warehouses and the pharmacies.  
+  
+ * *IoT for optimization of healthcare workflow*: Adoption of wireless infrastructure have helped manage the throughput and perform an analysis of the existence of bottlenecks, if any, in the system and that we could get rid of the same.  
 
-- *IoT for integrating the medical devices:* Different ways are being looked at for integrating the devices like Fitbits with a view to obtain more data about the patient and be taken care of.  Neel Ganguly, vice president and CIO at JFK Health System in Edison, New Jersey mentioned of JFK Health System starting to use devices like blood pressure cuffs, glucometers etc., with the intention of collecting data about the various signs of the patients which helped them serve the patients in a more effective manner. Just like IoT has security concerns in most of its extensive applications, the healthcare industry is no different.  But continuous efforts are being made to get rid of the existing barriers as well as the potential barriers [@www-iot-iotinhealthcare].  
-
+ * *IoT for integrating the medical devices*: Different ways are being looked at for integrating the devices like Fitbits with a view to obtain more data about the patient and be taken care of.  Neel Ganguly, vice president and CIO at JFK Health System in Edison, New Jersey mentioned of JFK Health System starting to use devices like blood pressure cuffs, glucometers etc., with the intention of collecting data about the various signs of the patients which helped them serve the patients in a more effective manner. Just like IoT has security concerns in most of its extensive applications, the healthcare industry is no different.  But continuous efforts are being made to get rid of the existing barriers as well as the potential barriers [@www-iot-iotinhealthcare].  
+  
 - *Application in Energy Management of Buildings:* The traditional building management systems look after buildings\' power sourced systems. The new Smart building energy management systems with help of IoT sensors offer a lot more than monitoring these systems. The data collected is also leveraged to conduct analysis on the raw data which is then transformed into insightful reports that can help make the systems way more efficient. Sensor devices that track weather and traffic data can also be connected to this system and their data can be utilized in adjusting a building\'s lighting, temperature etc., in real-time. The operating costs can be cut by 25% with help of these systems [@www-iotinnovation-iot].
-
  
 
-### Use cases: 
+### Use cases
 
 Now, IoT and Big data is everywhere. Due to the flexibility and scalability of big data, industries in recent times have started adapting to the use of IoT. Some of the industrial use cases include,  
 
-
-- *Caterpillar:* An IoT pioneer Caterpillar, one of the leading equipment makers is a perfect example of how it has reaped the benefits of using Internet of Things (IoT). They have eased out process of identification of levels of fuels for the personnel operating the machines and the timings of replacement of the air filters using the Internet of Things (IoT) along with Augmented Reality (AR) [@www-iot-usercasecaterpillar].  
-  
-
+- *Caterpillar:* An IoT pioneer – Caterpillar, one of the leading equipment makers is a perfect example of how it has reaped the benefits of using Internet of Things (IoT). They have eased out process of identification of levels of fuels for the personnel operating the machines and the timings of replacement of the air filters using the Internet of Things (IoT) along with Augmented Reality (AR) [@www-iot-usercasecaterpillar].  
+ 
 - *IoT based Asset Tracking System in Transportation & Logistics:* Number of assets were able to be tracked down by the existing tracking systems and the system use to breakdown reaching its threshold after the number of assets tracked increased exponentially. Since the devices used for tracking were from diversified manufacturers, it became increasingly difficult to analyze, draw inferences from the data and provide Business Intelligence reports. The solution to this was Internet of Things (IoT) which helped built a server for processing robust messaging. Geo-fencing was brought into implementation using IoT which would allow a trigger to be made on an asset entering or leaving a area. Also, an engine with respect to analytics was developed with a view to provide better data insights and meaningful Business Intelligence reports [@www-iot-industrialusecase].  
 
-
 - *Smart metering using IoT:* For measuring the consumption of gas, energy and water in buildings, a device capable of working with Internet called a smart meter is used. It has helped overcome the disadvantages of measuring just the overall consumption by allowing to record the level of consumption of each of the resources used thereby benefitting consumers monetary wise. In this way, Internet of Things (IoT) has helped improve the process of forecasting and binding the consumption of power [@www-iot-industrialusecase].  
-
-
+ 
 - *Predictive Maintenance using IoT:* Millions of dollars can be saved by the companies by keeping the equipment\'s and assets going all the time with the help of sensors and data analytics thereby preventive maintenance [@www-iot-industrialusecase].  
 
-  
- - *Airline Management using IoT:* IoT in airline industry can be seen everywhere from baggage tracking to cabin climate control. With help of IoT, the industry is trying to increase customer satisfaction by reducing the complaints like lost baggage, flight delays and service issues as well as in cutting unnecessary operational costs.Airways like Virgin Atlantic, Etihad are manufacturing planes that are connected with help of IoT devices. Data of half a terabyte is expected to be produced over a flight journey, this will be analyzed to get the information regarding mechanical issues etc., before they may even occur. With help of such technology the flight delays, safety issues will be restricted. Delta was one of the first airlines to introduce Radio Frequency Identification (RFID), a baggage tracking technology that leverages IoT. With help of RFID, the customers can always access their baggage location from their phone while travelling with the airlines. IoT is also being utilized in navigation of flights such that aircraft always takes an optimal route thereby optimizing the fuel use. This is being implemented by Air Asia with help of GE to cut fuel costs. Jet Blue with help of IoT has automated the check in process for customers, with a ticket and seat being issued directly to every customer not needing any customer inputs by analyzing their preferences from their data [@www-airline-iot].
-
-     
+- *Airline Management using IoT:* IoT in airline industry can be seen everywhere from baggage tracking to cabin climate control. With help of IoT, the industry is trying to increase customer satisfaction by reducing the complaints like lost baggage, flight delays and service issues as well as in cutting unnecessary operational costs.Airways like Virgin Atlantic, Etihad are manufacturing planes that are connected with help of IoT devices. Data of half a terabyte is expected to be produced over a flight journey, this will be analyzed to get the information regarding mechanical issues etc., before they may even occur. With help of such technology the flight delays, safety issues will be restricted. Delta was one of the first airlines to introduce Radio Frequency Identification (RFID), a baggage tracking technology that leverages IoT. With help of RFID, the customers can always access their baggage location from their phone while travelling with the airlines. IoT is also being utilized in navigation of flights such that aircraft always takes an optimal route thereby optimizing the fuel use. This is being implemented by Air Asia with help of GE to cut fuel costs. Jet Blue with help of IoT has automated the check in process for customers, with a ticket and seat being issued directly to every customer not needing any customer inputs by analyzing their preferences from their data [@www-airline-iot].
 
   
 
-### Future of IoT and Big Data:
+### Future Trends in IoT and Big Data   
+
+- *Retail Industry:* IoT promises to help retailers take better business decisions while helping them better the customer satisfaction. Omni-channel experience is going to be the future of retail and is feasible with IoT. The retail industry in future will be seamlessly integrating online stores with brick and mortar stores to make it easier for the customer to find their products while simultaneously connecting with shoppers in a more personal way. For example: Alerts can be sent to the customers when their favored location is out of a certain product with other recommendations etc [@www-forbes-retail].
+
+- *Health-care:*  With a proactive technology in place gathering a person\'s daily data, the onset of any clinical trail can be predicted there by reducing the number of emergency cases. IoT enabled technologies can make this scenario feasible in the future with help of a network of wearable devices, sensors, monitors etc., set up for monitoring health. With help of Monitoring technologies like telepresence, checkups can be done from any part of the world and the number of hours spent in hospitals can be cut down. Also, the data gathered by these technologies can help  transform the check-in process by automatically sharing the past data of patient with health professionals.[@www-iot-healthcarefut]
+
+
+### Conclusion
 
 With data coming from disparate data sources and diversified connected devices, it has given the big data analysts option to distinguish and filter data and just process the useful chunks of data further to the data warehouses and then generate Business Intelligence reports from there on. With the emergence of IoT, it has become increasingly possible to reach out to the customers at any given time of the day. Devices like Fitbits and smart devices have made it possible for the doctors to get timely updates of the patient\'s doing about his health thereby allowing the physicists to intervene whenever needed and provide mannerly treatment and diagnosis to their patients. Businesses have been reaping the benefits of the advancement in technology by having the luxury of digitally connecting to their clients even from the most remote locations in the world. In the years to come, the amalgam of advancement in technology i.e. the Internet of Things, big data will give more likelihood to businessmen in gathering even the most detailed information of their client and customers thereby giving themselves a better opportunity to improve their business from the perspective of effectively managing the monetary department and providing a better customer satisfaction which will invariably up their business a great deal [@www-iot-futureofiot].  
 
+With time and the advancements in the field of IoT and big data it can be concluded that they are two sides of the same coin bolstering one another.The Nexus of Internet of Things and Big Data can be seen as the future of business intelligence, health-care and many other industries.
   
 
-### Conclusion:
+### Acknowledgments
 
-With time and the advancements in the field of IoT and big data, we have come to saying that they are nothing but two sides of the same coin. Why we say so is because Big Data and its analytics is all about data and this data is sourced from many connected devices that are connected to IoT. The data volumes are expected to increase as and how the number of connected devices is to increase thus making the all aspects of life more digital.  
-
-  
-
-### Acknowledgments:
-
-The authors would like to thank Dr. Gregor von Laszewski for his support and suggestions to write this paper. 
+The authors would like to thank Dr. Gregor von Laszewski for his support and suggestions to write this paper.  

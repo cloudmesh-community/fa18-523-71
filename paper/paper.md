@@ -80,20 +80,14 @@ Interactions between digital mediums require special architecture and there are 
 
 - *Connectivity:* Next layer is termed as connectivity layer which takes care of communication between sensors and processing units. These processing units try converting input data from sensors into an understandable format with help of certain protocols and perform selection on data that is to be processed further into the IoT architecture creating thresholds for incoming data.  
 
-
-
 - *Edge computing:* Edge Computing does the analysis of data elements. Their transformation is achieved by analyzing and filtering data before it is processed further thereby reducing huge computing and networking costs. The incoming raw data from sensors and activators can be selectively sent for further analysis. Also, one of the major concerns of Internet of Things (IoT) architecture is Data Security. Edge computing overcomes this to a considerable extent by feeding some of the sensitive data into sensor devices. Also, devices known as edge devices are coming into existence which will help in analytics and computation purposes delivering data deliverables at a much faster speed in a robust manner. These edge devices will further help in maintaining connectivity with connected devices at source thereby allowing us to have a luxury of new smart devices.  
 
-  
 - *Data Accumulation:* Data Accumulation is largely done in distributed frameworks as incoming data is in humungous volumes and variety while being input at a great velocity. Data is distributed into small sets of data using key/pair values just as in the case of data tuples, mapped and then reduced to small chunks of data before processing it further. Also, these days, organizations are heading towards PaaS (Platform as a Service) as a cloud platform for hosting data publicly and at the same time securing the data, thus customizing it to their needs.  
 
-  
 - *Data Abstraction:* Different translation rules are brought into place for securing connectivity of specific devices. Also, a single model for data abstraction is created and provided to all the devices of a specific service thereby achieving integration of various devices.  
 
-  
 - *Application:* The Application layer consists of reporting and analytics part of the architecture. All the efforts that were put into data accumulation, abstraction, storage, transformation, cleansing, preparing smaller chunks will be benefited only if proper analytics is performed and strategic Business Intelligence reports are generated out of this data.  
 
-  
 - *Collaboration and processes:* Collaboration and processes layer is the user interface layer where people i.e., the end users and the business processes come into picture. In the end, it is the customer who engages with the business processes and as both are on the same page and hence the name Collaboration and processes layer.  
 
      
@@ -101,8 +95,6 @@ Interactions between digital mediums require special architecture and there are 
   
 
 ### Big Data and IoT Together:
-
-  
 
 Big Data analytics helps analyze data sourced from Internet of Things (IoT) which has multiple devices connected to it. These devices can be sensors, activators, websites, social media etc. Internet of Things (IoT) has had its advancements and applications in fields such as automobile industry, healthcare, transportation & logistics, education, commercialized residences etc., and incoming data from these domains is of in the order of billions of gigabytes every day, at the same time it is largely diversified. Also, the velocity of the inward data flow is extremely high. A Big Data platform then takes this generated data as its input and stores it into files. Since the input data is unstructured or semi-structured, frameworks used to store this data in an intermediate place are largely distributed. Different big data tools can be used for storing this huge data such as Apache Hadoop, Apache Hive etc. One of the most prominent ones used in the industry today is the Hadoop Architecture which has Hadoop Distributed File System and MapReduce as its two components to process data into small chunks for the report generations and analysis purpose. The data is in a way captured, integrated, mapped into different data sets of tuples and then processed to warehouses for storage. The data warehouses help store the legacy data in them and allow generating reports on the desired data at any given point in time [@www-iot-bigdataanalytics]. This is show in +@fig:bigdataandiot.  
 
@@ -140,12 +132,9 @@ The Internet of Things (IoT) has impacted the Big data platform in a great deal 
 
 - *Big Data Storage:* With data being sourced from various disparate data sources and connected devices as is the case working with Internet of Things (IoT), the data storage platforms need to be very flexible as the incoming data is in the order of billions of terabytes. Also, the rate at which data is input to a data storage platform is unlike the natural data speed. One of the main features the companies seek is hosting data in cloud systems so that the data is kept publicly secure and as per the company requirements. PaaS (Platform as a Service) is one such model the companies are eyeing, to serve their purpose of effectively handling the continuous inward flow of diversified data and hosting them on cloud as PaaS provides this functionality.  
 
-
 - *Big data Security:* Major threats as far as big data security is concerned are to the Data Mining solutions as they provide the strategic solutions to the business. Hence it becomes increasingly important to secure them against the security breaches caused by fake users. There needs to be proper encryption of authentication measures of the users. Also, it can be resolved with the use of metadata (data about data) as to who accessed what type of data and so on. The other prominent security issue with Big Data is of the distributed frameworks that are used for data storage purposes. Hadoop being one such open source big data platform where more systems can be prone to the security issues as the data processed is distributed over many distributed frameworks.  
 
-
 - *Big data Analytics:* The analytics of big data consists of a lot of challenges as the inward flow of data is quite unstructured considering it is from different connected devices like the sensors and websites. Hence the big data consists of three V\'s; Volume – huge volumes of data sourced from sensors is to be analyzed. Variety – Data is unstructured and is in the form of 3d data, 2d data, log files etc. Velocity – the speed with which the data is processed which is nothing but real-time processing and continuous data processing. Hence, we see data complexity in Big Data Analytics.  
-
 
 - *Tools of big data:* In order to draw effective insights and inferences from the data, proper big data tools need to be in place. If the analysis of data is not done in a proper manner, then the efforts that are put into the collection of data from various data repositories and processing it through will be of no use. The commonly used Big Data tools are Apace Hadoop, Apache Hive, Storm, Cloudera, Qubole etc.  
 

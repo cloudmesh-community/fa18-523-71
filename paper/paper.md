@@ -97,11 +97,7 @@ Interactions between digital mediums require special architecture and there are 
 
 :o: this is an example on how you do bulle lists in markdown, fix throughut the paper  
 
-- Connectivity\: 
-
-  
-
-Next layer is termed as connectivity layer which takes care of communication between sensors and processing units. These processing units try converting input data from sensors into an understandable format with help of certain protocols and perform selection on data that is to be processed further into the IoT architecture creating thresholds for incoming data.  
+- *Connectivity:* Next layer is termed as connectivity layer which takes care of communication between sensors and processing units. These processing units try converting input data from sensors into an understandable format with help of certain protocols and perform selection on data that is to be processed further into the IoT architecture creating thresholds for incoming data.  
 
   
 
@@ -109,11 +105,7 @@ Next layer is termed as connectivity layer which takes care of communication bet
 
   
 
--  Edge computing \: 
-
-  
-
-Edge Computing does the analysis of data elements. Their transformation is achieved by analyzing and filtering data before it is processed further thereby reducing huge computing and networking costs. The incoming raw data from sensors and activators can be selectively sent for further analysis. Also, one of the major concerns of Internet of Things (IoT) architecture is Data Security. Edge computing overcomes this to a considerable extent by feeding some of the sensitive data into sensor devices. Also, devices known as edge devices are coming into existence which will help in analytics and computation purposes delivering data deliverables at a much faster speed in a robust manner. These edge devices will further help in maintaining connectivity with connected devices at source thereby allowing us to have a luxury of new smart devices.  
+- *Edge computing:* Edge Computing does the analysis of data elements. Their transformation is achieved by analyzing and filtering data before it is processed further thereby reducing huge computing and networking costs. The incoming raw data from sensors and activators can be selectively sent for further analysis. Also, one of the major concerns of Internet of Things (IoT) architecture is Data Security. Edge computing overcomes this to a considerable extent by feeding some of the sensitive data into sensor devices. Also, devices known as edge devices are coming into existence which will help in analytics and computation purposes delivering data deliverables at a much faster speed in a robust manner. These edge devices will further help in maintaining connectivity with connected devices at source thereby allowing us to have a luxury of new smart devices.  
 
   
 
@@ -121,11 +113,7 @@ Edge Computing does the analysis of data elements. Their transformation is achie
 
   
 
-- Data Accumulation\: 
-
-  
-
-Data Accumulation is largely done in distributed frameworks as incoming data is in humungous volumes and variety while being input at a great velocity. Data is distributed into small sets of data using key/pair values just as in the case of data tuples, mapped and then reduced to small chunks of data before processing it further. Also, these days, organizations are heading towards PaaS (Platform as a Service) as a cloud platform for hosting data publicly and at the same time securing the data, thus customizing it to their needs.  
+- *Data Accumulation:* Data Accumulation is largely done in distributed frameworks as incoming data is in humungous volumes and variety while being input at a great velocity. Data is distributed into small sets of data using key/pair values just as in the case of data tuples, mapped and then reduced to small chunks of data before processing it further. Also, these days, organizations are heading towards PaaS (Platform as a Service) as a cloud platform for hosting data publicly and at the same time securing the data, thus customizing it to their needs.  
 
   
 
@@ -133,11 +121,7 @@ Data Accumulation is largely done in distributed frameworks as incoming data is 
 
   
 
-- Data Abstraction\: 
-
-  
-
-Different translation rules are brought into place for securing connectivity of specific devices. Also, a single model for data abstraction is created and provided to all the devices of a specific service thereby achieving integration of various devices.  
+- *Data Abstraction:* Different translation rules are brought into place for securing connectivity of specific devices. Also, a single model for data abstraction is created and provided to all the devices of a specific service thereby achieving integration of various devices.  
 
   
 
@@ -145,11 +129,7 @@ Different translation rules are brought into place for securing connectivity of 
 
   
 
-- Application\: 
-
-  
-
-The Application layer consists of reporting and analytics part of the architecture. All the efforts that were put into data accumulation, abstraction, storage, transformation, cleansing, preparing smaller chunks will be benefited only if proper analytics is performed and strategic Business Intelligence reports are generated out of this data.  
+- *Application:* The Application layer consists of reporting and analytics part of the architecture. All the efforts that were put into data accumulation, abstraction, storage, transformation, cleansing, preparing smaller chunks will be benefited only if proper analytics is performed and strategic Business Intelligence reports are generated out of this data.  
 
   
 
@@ -157,11 +137,7 @@ The Application layer consists of reporting and analytics part of the architectu
 
   
 
-- Collaboration and processes\: 
-
-  
-
-Collaboration and processes layer is the user interface layer where people i.e., the end users and the business processes come into picture. In the end, it is the customer who engages with the business processes and as both are on the same page and hence the name Collaboration and processes layer.  
+- *Collaboration and processes:* Collaboration and processes layer is the user interface layer where people i.e., the end users and the business processes come into picture. In the end, it is the customer who engages with the business processes and as both are on the same page and hence the name Collaboration and processes layer.  
 
      
 
@@ -226,11 +202,7 @@ The Internet of Things (IoT) has impacted the Big data platform in a great deal 
 
   
 
-- Big Data Storage\:  
-
-  
-
-With data being sourced from various disparate data sources and connected devices as is the case working with Internet of Things (IoT), the data storage platforms need to be very flexible as the incoming data is in the order of billions of terabytes. Also, the rate at which data is input to a data storage platform is unlike the natural data speed. One of the main features the companies seek is hosting data in cloud systems so that the data is kept publicly secure and as per the company requirements. PaaS (Platform as a Service) is one such model the companies are eyeing, to serve their purpose of effectively handling the continuous inward flow of diversified data and hosting them on cloud as PaaS provides this functionality.  
+- *Big Data Storage:* With data being sourced from various disparate data sources and connected devices as is the case working with Internet of Things (IoT), the data storage platforms need to be very flexible as the incoming data is in the order of billions of terabytes. Also, the rate at which data is input to a data storage platform is unlike the natural data speed. One of the main features the companies seek is hosting data in cloud systems so that the data is kept publicly secure and as per the company requirements. PaaS (Platform as a Service) is one such model the companies are eyeing, to serve their purpose of effectively handling the continuous inward flow of diversified data and hosting them on cloud as PaaS provides this functionality.  
 
   
 
@@ -238,11 +210,7 @@ With data being sourced from various disparate data sources and connected device
 
   
 
-- Big data Security\: 
-
-  
-
-Major threats as far as big data security is concerned are to the Data Mining solutions as they provide the strategic solutions to the business. Hence it becomes increasingly important to secure them against the security breaches caused by fake users. There needs to be proper encryption of authentication measures of the users. Also, it can be resolved with the use of metadata (data about data) as to who accessed what type of data and so on. The other prominent security issue with Big Data is of the distributed frameworks that are used for data storage purposes. Hadoop being one such open source big data platform where more systems can be prone to the security issues as the data processed is distributed over many distributed frameworks.  
+- *Big data Security:* Major threats as far as big data security is concerned are to the Data Mining solutions as they provide the strategic solutions to the business. Hence it becomes increasingly important to secure them against the security breaches caused by fake users. There needs to be proper encryption of authentication measures of the users. Also, it can be resolved with the use of metadata (data about data) as to who accessed what type of data and so on. The other prominent security issue with Big Data is of the distributed frameworks that are used for data storage purposes. Hadoop being one such open source big data platform where more systems can be prone to the security issues as the data processed is distributed over many distributed frameworks.  
 
   
 
@@ -250,11 +218,7 @@ Major threats as far as big data security is concerned are to the Data Mining so
 
   
 
-- Big data Analytics\: 
-
-  
-
-The analytics of big data consists of a lot of challenges as the inward flow of data is quite unstructured considering it is from different connected devices like the sensors and websites. Hence the big data consists of three V\'s; Volume – huge volumes of data sourced from sensors is to be analyzed. Variety – Data is unstructured and is in the form of 3d data, 2d data, log files etc. Velocity – the speed with which the data is processed which is nothing but real-time processing and continuous data processing. Hence, we see data complexity in Big Data Analytics.  
+- *Big data Analytics:* The analytics of big data consists of a lot of challenges as the inward flow of data is quite unstructured considering it is from different connected devices like the sensors and websites. Hence the big data consists of three V\'s; Volume – huge volumes of data sourced from sensors is to be analyzed. Variety – Data is unstructured and is in the form of 3d data, 2d data, log files etc. Velocity – the speed with which the data is processed which is nothing but real-time processing and continuous data processing. Hence, we see data complexity in Big Data Analytics.  
 
   
 
@@ -262,11 +226,7 @@ The analytics of big data consists of a lot of challenges as the inward flow of 
 
   
 
-- Tools of big data\: 
-
-  
-
-In order to draw effective insights and inferences from the data, proper big data tools need to be in place. If the analysis of data is not done in a proper manner, then the efforts that are put into the collection of data from various data repositories and processing it through will be of no use. The commonly used Big Data tools are Apace Hadoop, Apache Hive, Storm, Cloudera, Qubole etc.  
+- *Tools of big data:* In order to draw effective insights and inferences from the data, proper big data tools need to be in place. If the analysis of data is not done in a proper manner, then the efforts that are put into the collection of data from various data repositories and processing it through will be of no use. The commonly used Big Data tools are Apace Hadoop, Apache Hive, Storm, Cloudera, Qubole etc.  
 
   
 
@@ -298,11 +258,7 @@ The Internet of Things and Big Data coming together play an important role in co
 
   
 
-- Application in Manufacturing Industries \:  
-
-  
-
-The machinery that is enabled with the Internet of Things (IoT) assists in transmitting operation related information to the managers which helps them identify the areas of optimization and the process of automation. It is also used in facilitative management of machine tools expected to function in specified ranges of temperature. Sensors enabled by IoT can help monitor such machines sending alerts as soon as sensor senses some deviation from the original specifications. Operating machinery in the specified specification range in turn increases the efficiency of operations, diminishes the downtime of machines, thereby, helps reducing the costs and conserving energy. Another application of IoT in the manufacturing domain is the Production Flow monitoring where production lines monitoring is enabled from refining to the packaging of final products. If there is any discrepancy found in operations, then the IoT enabled monitoring of processes helps in adjusting them and managing them better from the cost of operation point of view and avoiding wastes during the production process. Further, IoT helps in tracking and tracing of inventory while delivering the products on a global basis which helps in managers getting a clear idea of the current supply chain process. We can ensure the safety of the workers in any given project by monitoring the performance indicators thereby reducing the injury rate and any relevant loss to the organization. IoT significantly helps in quality control over the life cycle of a manufacturing process [@www-iot-applicationbenefits].  
+- *Application in Manufacturing Industries:* The machinery that is enabled with the Internet of Things (IoT) assists in transmitting operation related information to the managers which helps them identify the areas of optimization and the process of automation. It is also used in facilitative management of machine tools expected to function in specified ranges of temperature. Sensors enabled by IoT can help monitor such machines sending alerts as soon as sensor senses some deviation from the original specifications. Operating machinery in the specified specification range in turn increases the efficiency of operations, diminishes the downtime of machines, thereby, helps reducing the costs and conserving energy. Another application of IoT in the manufacturing domain is the Production Flow monitoring where production lines monitoring is enabled from refining to the packaging of final products. If there is any discrepancy found in operations, then the IoT enabled monitoring of processes helps in adjusting them and managing them better from the cost of operation point of view and avoiding wastes during the production process. Further, IoT helps in tracking and tracing of inventory while delivering the products on a global basis which helps in managers getting a clear idea of the current supply chain process. We can ensure the safety of the workers in any given project by monitoring the performance indicators thereby reducing the injury rate and any relevant loss to the organization. IoT significantly helps in quality control over the life cycle of a manufacturing process [@www-iot-applicationbenefits].  
 
   
 
@@ -310,11 +266,7 @@ The machinery that is enabled with the Internet of Things (IoT) assists in trans
 
   
 
-- Application in Health care \:  
-
-  
-
-The Internet of Things (IoT) has advanced its applications in the field of Healthcare by a great deal right from monitoring remotely to getting accustomed to medication. It has served as a helping hand to the doctors to make significant progress in patients\' health. The hospitals have started using Internet of Things (IoT) ensuring every patient gets maximum benefits and stays healthier no matter how small the disease to be cured is. The IoT has guided the healthcare industry in improving the implementation of healthcare processes in a myriad of ways.   
+- *Application in Health care:* The Internet of Things (IoT) has advanced its applications in the field of Healthcare by a great deal right from monitoring remotely to getting accustomed to medication. It has served as a helping hand to the doctors to make significant progress in patients\' health. The hospitals have started using Internet of Things (IoT) ensuring every patient gets maximum benefits and stays healthier no matter how small the disease to be cured is. The IoT has guided the healthcare industry in improving the implementation of healthcare processes in a myriad of ways.   
 
   
 
@@ -331,11 +283,7 @@ The Internet of Things (IoT) has advanced its applications in the field of Healt
 
   
 
-- Application in Energy Management of Buildings\:  
-
-  
-
-The traditional building management systems look after buildings\' power sourced systems. The new Smart building energy management systems with help of IoT sensors offer a lot more than monitoring these systems. The data collected is also leveraged to conduct analysis on the raw data which is then transformed into insightful reports that can help make the systems way more efficient. Sensor devices that track weather and traffic data can also be connected to this system and their data can be utilized in adjusting a building\'s lighting, temperature etc., in real-time. The operating costs can be cut by 25% with help of these systems [@www-iotinnovation-iot].
+- *Application in Energy Management of Buildings:* The traditional building management systems look after buildings\' power sourced systems. The new Smart building energy management systems with help of IoT sensors offer a lot more than monitoring these systems. The data collected is also leveraged to conduct analysis on the raw data which is then transformed into insightful reports that can help make the systems way more efficient. Sensor devices that track weather and traffic data can also be connected to this system and their data can be utilized in adjusting a building\'s lighting, temperature etc., in real-time. The operating costs can be cut by 25% with help of these systems [@www-iotinnovation-iot].
 
  
 
@@ -351,7 +299,7 @@ Now, IoT and Big data is everywhere. Due to the flexibility and scalability of b
 
   
 
-- Caterpillar\: An IoT pioneer – Caterpillar, one of the leading equipment makers is a perfect example of how it has reaped the benefits of using Internet of Things (IoT). They have eased out process of identification of levels of fuels for the personnel operating the machines and the timings of replacement of the air filters using the Internet of Things (IoT) along with Augmented Reality (AR) [@www-iot-usercasecaterpillar].  
+- *Caterpillar:* An IoT pioneer – Caterpillar, one of the leading equipment makers is a perfect example of how it has reaped the benefits of using Internet of Things (IoT). They have eased out process of identification of levels of fuels for the personnel operating the machines and the timings of replacement of the air filters using the Internet of Things (IoT) along with Augmented Reality (AR) [@www-iot-usercasecaterpillar].  
 
   
 
@@ -359,7 +307,7 @@ Now, IoT and Big data is everywhere. Due to the flexibility and scalability of b
 
   
 
-- IoT based Asset Tracking System in Transportation & Logistics \: Number of assets were able to be tracked down by the existing tracking systems and the system use to breakdown reaching its threshold after the number of assets tracked increased exponentially. Since the devices used for tracking were from diversified manufacturers, it became increasingly difficult to analyze, draw inferences from the data and provide Business Intelligence reports. The solution to this was Internet of Things (IoT) which helped built a server for processing robust messaging. Geo-fencing was brought into implementation using IoT which would allow a trigger to be made on an asset entering or leaving a area. Also, an engine with respect to analytics was developed with a view to provide better data insights and meaningful Business Intelligence reports [@www-iot-industrialusecase].  
+- *IoT based Asset Tracking System in Transportation & Logistics:* Number of assets were able to be tracked down by the existing tracking systems and the system use to breakdown reaching its threshold after the number of assets tracked increased exponentially. Since the devices used for tracking were from diversified manufacturers, it became increasingly difficult to analyze, draw inferences from the data and provide Business Intelligence reports. The solution to this was Internet of Things (IoT) which helped built a server for processing robust messaging. Geo-fencing was brought into implementation using IoT which would allow a trigger to be made on an asset entering or leaving a area. Also, an engine with respect to analytics was developed with a view to provide better data insights and meaningful Business Intelligence reports [@www-iot-industrialusecase].  
 
   
 
@@ -367,7 +315,7 @@ Now, IoT and Big data is everywhere. Due to the flexibility and scalability of b
 
   
 
-- Smart metering using IoT\: For measuring the consumption of gas, energy and water in buildings, a device capable of working with Internet called a smart meter is used. It has helped overcome the disadvantages of measuring just the overall consumption by allowing to record the level of consumption of each of the resources used thereby benefitting consumers monetary wise. In this way, Internet of Things (IoT) has helped improve the process of forecasting and binding the consumption of power [@www-iot-industrialusecase].  
+- *Smart metering using IoT:* For measuring the consumption of gas, energy and water in buildings, a device capable of working with Internet called a smart meter is used. It has helped overcome the disadvantages of measuring just the overall consumption by allowing to record the level of consumption of each of the resources used thereby benefitting consumers monetary wise. In this way, Internet of Things (IoT) has helped improve the process of forecasting and binding the consumption of power [@www-iot-industrialusecase].  
 
   
 
@@ -375,14 +323,11 @@ Now, IoT and Big data is everywhere. Due to the flexibility and scalability of b
 
   
 
-- Predictive Maintenance using IoT\: Millions of dollars can be saved by the companies by keeping the equipment\'s and assets going all the time with the help of sensors and data analytics thereby preventive maintenance [@www-iot-industrialusecase].  
+- *Predictive Maintenance using IoT:* Millions of dollars can be saved by the companies by keeping the equipment\'s and assets going all the time with the help of sensors and data analytics thereby preventive maintenance [@www-iot-industrialusecase].  
 
   
 
- - Airline Management using IoT\:  
- IoT in airline industry can be seen everywhere from baggage tracking to cabin climate control. With help of IoT, the industry is trying
- to increase customer satisfaction by reducing the complaints like lost baggage, flight delays and service issues as well as in cutting
- unnecessary operational costs.Airways like Virgin Atlantic, Etihad are manufacturing planes that are connected with help of IoT devices. Data of half a terabyte is expected to be produced over a flight journey, this will be analyzed to get the information regarding mechanical issues etc., before they may even occur. With help of such technology the flight delays, safety issues will be restricted. Delta was one of the first airlines to introduce Radio Frequency Identification (RFID), a baggage tracking technology that leverages IoT. With help of RFID, the customers can always access their baggage location from their phone while travelling with the airlines. IoT is also being utilized in navigation of flights such that aircraft always takes an optimal route thereby optimizing the fuel use. This is being implemented by Air Asia with help of GE to cut fuel costs. Jet Blue with help of IoT has automated the check in process for customers, with a ticket and seat being issued directly to every customer not needing any customer inputs by analyzing their preferences from their data [@www-airline-iot].
+ - *Airline Management using IoT:* IoT in airline industry can be seen everywhere from baggage tracking to cabin climate control. With help of IoT, the industry is trying to increase customer satisfaction by reducing the complaints like lost baggage, flight delays and service issues as well as in cutting unnecessary operational costs.Airways like Virgin Atlantic, Etihad are manufacturing planes that are connected with help of IoT devices. Data of half a terabyte is expected to be produced over a flight journey, this will be analyzed to get the information regarding mechanical issues etc., before they may even occur. With help of such technology the flight delays, safety issues will be restricted. Delta was one of the first airlines to introduce Radio Frequency Identification (RFID), a baggage tracking technology that leverages IoT. With help of RFID, the customers can always access their baggage location from their phone while travelling with the airlines. IoT is also being utilized in navigation of flights such that aircraft always takes an optimal route thereby optimizing the fuel use. This is being implemented by Air Asia with help of GE to cut fuel costs. Jet Blue with help of IoT has automated the check in process for customers, with a ticket and seat being issued directly to every customer not needing any customer inputs by analyzing their preferences from their data [@www-airline-iot].
 
      
 

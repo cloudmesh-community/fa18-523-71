@@ -100,7 +100,7 @@ Big Data analytics helps analyze data sourced from Internet of Things (IoT) whic
 
   
 
-![Big Data and IoT[@www-iot-bigdataanalytics]](images/IoT%20and%20big%20data%20platform.jpg){#@fig:bigdataandiot}
+![Big Data and IoT[@www-iot-bigdataanalytics]](images/IoT%20and%20big%20data%20platform.jpg){#fig:bigdataandiot}
 
   
 
@@ -109,7 +109,7 @@ Big Data analytics helps analyze data sourced from Internet of Things (IoT) whic
 Big data helps businesses in coming up with inferences, insights and actionable recommendations by analyzing the unstructured or semi-structured data. Billions of devices are expected to be connected to the internet and hence for the functionalities of these devices to be held, data is needed.  IoT will be a major data source for the data that is to be analyzed by companies for growth and effective decision making with the nexus of big data and the IOT data from the connected devices making it cheaper and faster. The process of IoT with Big Data is seen in +@fig:iotprocess [@www-iot-iotandbigdata].  
 
   
-![IoT Process [@www-iot-iotandbigdata]](images/IoT%20and%20Big%20data%20Analysis.jpg){#@fig:iotprocess}
+![IoT Process [@www-iot-iotandbigdata]](images/IoT%20and%20Big%20data%20Analysis.jpg){#fig:iotprocess}
   
 
 
@@ -152,7 +152,7 @@ The Internet of Things and Big Data coming together play an important role in co
 
   
 
-![IoT Application [@www-iot-intro]](images/IoT%20application.png){#@fig:iotapps}
+![IoT Application [@www-iot-intro]](images/IoT%20application.png){#fig:iotapps}
 
   
 - *Application in Manufacturing Industries:* The machinery that is enabled with the Internet of Things (IoT) assists in transmitting operation related information to the managers which helps them identify the areas of optimization and the process of automation. It is also used in facilitative management of machine tools expected to function in specified ranges of temperature. Sensors enabled by IoT can help monitor such machines sending alerts as soon as sensor senses some deviation from the original specifications. Operating machinery in the specified specification range in turn increases the efficiency of operations, diminishes the downtime of machines, thereby, helps reducing the costs and conserving energy. Another application of IoT in the manufacturing domain is the Production Flow monitoring where production lines monitoring is enabled from refining to the packaging of final products. If there is any discrepancy found in operations, then the IoT enabled monitoring of processes helps in adjusting them and managing them better from the cost of operation point of view and avoiding wastes during the production process. Further, IoT helps in tracking and tracing of inventory while delivering the products on a global basis which helps in managers getting a clear idea of the current supply chain process. We can ensure the safety of the workers in any given project by monitoring the performance indicators thereby reducing the injury rate and any relevant loss to the organization. IoT significantly helps in quality control over the life cycle of a manufacturing process [@www-iot-applicationbenefits].  

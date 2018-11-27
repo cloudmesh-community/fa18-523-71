@@ -126,7 +126,7 @@ Now, IoT and Big data is everywhere. Due to the flexibility and scalability of b
 
   
 
-### Future Trends in IoT and Big Data   
+### Future Trends   
 
 - *Retail Industry:* IoT promises to help retailers take better business decisions while helping them better the customer satisfaction. Omni-channel experience is going to be the future of retail and is feasible with IoT. The retail industry in future will be seamlessly integrating online stores with brick and mortar stores to make it easier for the customer to find their products while simultaneously connecting with shoppers in a more personal way. For example: Alerts can be sent to the customers when their favored location is out of a certain product with other recommendations etc [@www-forbes-retail].
 

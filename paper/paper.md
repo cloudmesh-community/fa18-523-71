@@ -275,11 +275,7 @@ The Internet of Things and Big Data coming together play an important role in co
   
  * *IoT for optimization of healthcare workflow* \: Adoption of wireless infrastructure have helped manage the throughput and perform an analysis of the existence of bottlenecks, if any, in the system and that we could get rid of the same.  
 
- * *IoT for integrating the medical devices*\: Different ways are being looked at for integrating the devices like Fitbits with a view to obtain more data about the patient and be taken care of.  Neel Ganguly, vice president and CIO at JFK Health System in Edison, New Jersey mentioned of JFK Health System starting to use devices like blood pressure cuffs, glucometers etc., with the intention of collecting data about the various signs of the patients which helped them serve the patients in a more effective manner.  
-
-  
-
- Just like IoT has security concerns in most of its extensive applications, the healthcare industry is no different.  But continuous efforts are being made to get rid of the existing barriers as well as the potential barriers [@www-iot-iotinhealthcare].  
+ * *IoT for integrating the medical devices*\: Different ways are being looked at for integrating the devices like Fitbits with a view to obtain more data about the patient and be taken care of.  Neel Ganguly, vice president and CIO at JFK Health System in Edison, New Jersey mentioned of JFK Health System starting to use devices like blood pressure cuffs, glucometers etc., with the intention of collecting data about the various signs of the patients which helped them serve the patients in a more effective manner. Just like IoT has security concerns in most of its extensive applications, the healthcare industry is no different.  But continuous efforts are being made to get rid of the existing barriers as well as the potential barriers [@www-iot-iotinhealthcare].  
 
   
 

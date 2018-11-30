@@ -10,18 +10,17 @@
 
 ### Week Fri 11/16/18 - 11/23/18
   * Paper work on BigData and IOT: 
-    * Final changes made to paper
+    * Final changes made to paper:
+     * Future trends and Conclusion updated
+     * Abstract merged with introduction
     * pull request
     * Recieved Feedback
 
 
 ### Week Fri 11/09/18 - 11/16/18
   * Paper work on BigData and IOT: 
-    * Future Trends and Conclusion updated
-
-### Week Fri 11/09/18 - 11/16/18
-  * Paper work on BigData and IOT: 
     * Applications and Use Cases updated
+    
 
 ### Week Fri 11/02/18 - 11/09/18
 

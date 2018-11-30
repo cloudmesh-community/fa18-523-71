@@ -8,8 +8,7 @@
 | hid: fa18-523-71 fa18-523-59 
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-71/edit/master/paper/paper.md) 
 
-:o: spaces before some of the citations missing, mentioned before
- 
+
 ---  
 
 Keywords:IoT, Big Data, Analytics, Smart devices  fa18-523-59, fa18-523-71.  

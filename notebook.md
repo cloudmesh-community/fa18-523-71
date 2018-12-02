@@ -1,5 +1,8 @@
 # Weekly updates
 
+### Week Fri 11/30/18 - 12/07/18
+  * Took plagiarism test and passed it
+
 ### Week Fri 11/23/18 - 11/30/18
   * Paper work on BigData and IOT: 
     * Fixed issues

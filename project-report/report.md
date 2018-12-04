@@ -1,4 +1,4 @@
-# Credit Card Defaulter Analysis :hand: fa18-523-71 fa18-523-59
+# Loan Defaulter Analysis :hand: fa18-523-71 fa18-523-59
 
 | Uma Kota, Jatinkumar Bhutka
 | umabkota@iu.edu, jdbhutka@iu.edu
@@ -13,19 +13,13 @@
 
 ---
 
-In 2006, Taiwan saw credit card debt crisis, the banks of Taiwan over issued credit cards in pursuit of
-increasing their market share. Also, many cardholders consumed more than their capacity thereby
-accumulating heavy debts. Utilizing this data, we aim to classify the defaulters by performing
-different statistical analyses, to help predict an individual customer’s credit risk. We believe this
-analysis will help us better understand the route cause behind defaulting and also provide a better
-way to classify an applicant given his data.We’ll be working on different modelling techniques like
-k means, logistic regression, naive Bayes and artificial neural networks to get provide our solution.
+The classification of potential loan defaulters is one of the tough and important solutions in the bank sector today. Especially, when there is little or no data regarding the customers\' credit history.
 
-### Data
-  
-The Default of credit card clients is multivariate Data Set from UCI machine learning Repository.It
-consists of 30,000 records with 23 features. The features includes amount of given credit, Sex,
-Education, Marital status, Age, History of past payments, amount of bill statements, amount paid.
+
+In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data to urge the data enthusiasts all over the world to come up with new models and predictions. If a optimal solution is achieved, it would help understand the clients potential of repaying the loan.
+
+We\’ll be working on different modelling techniques like k means, logistic regression, naive Bayes and random forests to get provide our solution.
+
 
 ### Questions
 
@@ -44,7 +38,7 @@ sensitivity.
   * k-means
   * Logistic Regression
   * Naive Bayes
-  * Artificial Neural Network
+  * Random Forest
 * Modelling Analysis
 * Evaluation and Conclusion
 

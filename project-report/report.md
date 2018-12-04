@@ -18,7 +18,7 @@ The classification of potential loan defaulters is one of the tough and importan
 
 In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data to urge the data enthusiasts all over the world to come up with new models and predictions. If a optimal solution is achieved, it would help understand the clients potential of repaying the loan.
 
-We\’ll be working on different modelling techniques like k means, logistic regression, naive Bayes and random forests to get provide our solution. [@www-kaggle-homecredit]
+We\’ll be working on different modelling techniques like k means, logistic regression, naive Bayes and random forests to get provide our solution. [@www-kagglehomecredit]
 
 
 ### Questions

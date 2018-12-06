@@ -2,7 +2,7 @@
 
 * 16 GB of RAM
 * Python 3.7 
-* Anaconda Platform with Jupyter Notebook IDE
+* Anaconda Platform with Jupyter Notebook IDE or Microsoft Azure account
 * Packages to Install: Numpy, Pandas, Matplotlib, Seaborn, Sklearn
 * Dataset : application_train from Kaggle's Home Credit Default Risk Competition
 

@@ -7,39 +7,46 @@
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-71/edit/master/project-report/report.md)
 | code: Project report only
 
+
+## Abstract
+
+The classification of potential loan defaulters is one of the tough and important solutions in the bank sector today. Especially, when there is little or no data regarding the customers\' credit history.In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data to urge the data enthusiasts all over the world to come up with new models and predictions. If an optimal solution is achieved, it would help understand the clients potential of repaying the loan.To classify the defaulters we have tried various approaches including PCA and Random Forests for feature selection and Random Forest, k-nn and XGBOOST for modelling with XGBOOST giving us the best results. To build the models, Jupyter Notebook IDE with a python 3.7 kernel was used on the  cloud computing service Microsoft Azure. [@www-kagglehomecredit]
+
+
 ---
 
-### Keywords: TBD
+### Keywords: fa18-523-71, fa18-523-59, Exploratory Data Analysis, Python, Microsoft Azure, Classification, Credit, 
+
 
 ---
 
-The classification of potential loan defaulters is one of the tough and important solutions in the bank sector today. Especially, when there is little or no data regarding the customers\' credit history.
+## Introduction
 
 
-In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data to urge the data enthusiasts all over the world to come up with new models and predictions. If a optimal solution is achieved, it would help understand the clients potential of repaying the loan.
-
-We\’ll be working on different modelling techniques like k means, logistic regression, naive Bayes and random forests to get provide our solution. [@www-kagglehomecredit]
 
 
-### Questions
+## Data 
 
-* what is the best evaluation metric for the models and it’s precision, recall or specificity and
-sensitivity.
-* Which is the best model to predict the defaulters.
-* Which features influence most to the default payments.
-* How this can help to minimize bank’s risk.
-* We will analyze data to answer more questions.
 
-### Timeline
+## Related work 
 
-* Data Pre-processing – we will be using python for this
-* Exploratory Data Analysis
-* Data modelling
-  * k-means
-  * Logistic Regression
-  * Naive Bayes
-  * Random Forest
-* Modelling Analysis
-* Evaluation and Conclusion
 
+## Technologies used
+
+
+
+
+## Exploratory Data Analysis 
+
+## Feature Engineering
+
+## Modeling
+
+## Results
+
+
+## Conclusion
+
+
+## Acknowledgement
 

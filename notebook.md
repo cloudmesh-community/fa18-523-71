@@ -2,6 +2,8 @@
 
 ### Week Fri 11/30/18 - 12/07/18
   * Took plagiarism test and passed it
+  * Complteted the project and updated the code
+  * Working on the Report
 
 ### Week Fri 11/23/18 - 11/30/18
   * Paper work on BigData and IOT: 

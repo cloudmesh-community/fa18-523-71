@@ -77,5 +77,5 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 ## Conclusion
 
 
-## Acknowledgement
+## Acknowledgment
 We would like to thank professor Dr. Gregor von Laszewski for helping us with the problem statement and dataset selection and also for all the guidance he has provided us during the coursework. We would also like to thank the associate instructors for helping us and guiding us. 

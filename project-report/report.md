@@ -91,9 +91,23 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 * Removing multi-collinearity:
 	* The independent variables with a Pearson correlation of more than 0.9 were removed to curb redundancy in model.
 
-
+* Scaling the data:
+	* Using the Scikit-learn sklearn.preprocessing.MinMaxScaler module, the values were scaled such that they are all in between0 and 1  [@www-winsorization-kdn] .
+	
 ## Feature Engineering
+* New Features:
+	* 3 new features, income\_fm,days\_emp and ann\_nr , were added to the list of features. They were calculated using the existing features. 
 
+* Principal Component Analysis:
+	* PCA is a procedure that changes potentially correlated variables into a smaller set of independent principal components.
+	* The variability of dependent variable is mostly explained by the first component and as we proceed further, the variability explained decreases [@www-pca-ncsu] .
+	* PCA was applied on the ten most intuitive features from the whole set.
+	* The top 6 PCs were seen to explain most of the variability 
+	
+* Random Forest
+	*  A Random forest classifier was trained on the train data and the importance of each variable was found using the model.
+	*  Taking the importance scores into consideration, top 15 features were selected to make a model on
+ 
 ## Modeling
 
 ## Results

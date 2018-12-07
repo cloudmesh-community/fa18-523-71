@@ -37,6 +37,36 @@ The main dataset has 307511 rows with each row representing individual loan appl
 
 ## Exploratory Data Analysis 
 
+The dataset with high dimensionality of 122 features required a series of univariate and bivariate anlayses to be conducted on it for us to understand the features and their relationship with each other.
+
+* To begin with, we had to find the types of data the dataset comprises. We found out that of the 122 columns the dataset is made of 106 numeric and the rest of the 16 columns are categorical. Also, of the  106 numeric variables, 32 of them were Boolean.
+* Number and percentage of missing values for each column were found to conduct missing value treatment on the dataset. 67 of the 122 columns had one or more missing values.
+* The distribution of labels for the dependent variable,TARGET, was seen by plotting a countplot of the variable. It can be seen in the figure that the instances of repaid and not repaid are balanced. The instances where the customer has not repaid are very sparse making this problem a case of rare event modeling.
+
+![Label Distribution of Target](images/countplot.png) {#fig:LabelDistributionofTarget}
+
+* Distributions of the intuitively important variables were also plotted to check for outliers and skewedness and it was found that many variables exhibited skewed distributions with outliers. In the figure +@fig:AMT_INCOME_TOTAL_dist, the histogram plot, shows the distribution of AMT\_INCOME\_TOTAL which captures total income of the applicant. In the figure +@fig:AMT_INCOME_TOTAL_outlier, the barplot shows the range of the feature and the outliers that lie outside the IQR (Inter Quartile Range) 
+
+![Distribution of AMT\_INCOME\_TOTAL](images/AMT_INCOME_TOTAL_dist.png) {#fig:AMT_INCOME_TOTAL_dist}
+
+![Outliers in AMT\_INCOME\_TOTAL](images/AMT_INCOME_TOTAL_barplot.png) {#fig:AMT_INCOME_TOTAL_outlier}
+
+Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:OCCtypedist
+
+![Distribution of OCCUPATION\_TYPE](images/OCCtypedist.png) {#fig:OCCtypedist}
+
+* Various bivariate analyses were also conducted to understand the relationship between the dependent and independent variables and relationships in between independent variables and to make sure no multi-collinearity exists in the dataset before we conduct statistical modeling. +@fig:extsource3target shows the variance of the EXT\_SOURCE3 variable with respect to the dependent variable and +@fig:occ_target_bivariate shows the same for the variable OCCUPATION\_TYPE
+
+![Relation between EXT\_SOURCE3 and TARGET](images/extsource3target.png) {#fig:extsource3target}
+
+![Relation between OCCUPATION\_TYPE and TARGET](images/occ_target_bivariate.png) {#fig:occ_target_bivariate}
+
++@fig:occgender shows the relationship between gender, occupation type and income
+
+![Relation between OCCUPATION\_TYPE, AMT\_INCOME\_TOTAL and CODE\_GENDER ](images/occtype_gender.png) {#fig:occgender}
+
+* Correalations between the variables were found before heading to feature selection.
+
 ## Feature Engineering
 
 ## Modeling

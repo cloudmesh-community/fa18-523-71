@@ -10,7 +10,7 @@
 
 ## Abstract
 
-Classifying potential loan defaulters from potential clients is one of the most important probelms in banking sector today. Especially, when there is little or no data regarding the customers\' credit history, it's difficult to predict whether the client will be able to repay their loan amount.In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data in a kaggle competetion to urge the datascience enthusiasts all over the world to come up with new models and predictions. If an optimal solution is achieved, it would help us understand the clients potential of repaying the loan and also help many potential clients get their loans sanctioned .To classify the defaulters, we have tried various approaches including PCA and Random Forests for feature selection and Random Forest, k-nn and XGBOOST for modelling with XGBOOST giving us the best results. To build the models, Jupyter Notebook IDE with a python 3.7 kernel was used on the cloud computing service Microsoft Azure. [@www-kagglehomecredit]
+Classifying potential loan defaulters from potential clients is one of the most important probelms in banking sector today. Especially, when there is little or no data regarding the customers\' credit history, it's difficult to predict whether the client will be able to repay their loan amount.In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data in a kaggle competetion to urge the datascience enthusiasts all over the world to come up with new models and predictions. If an optimal solution is achieved, it would help us understand the clients potential of repaying the loan and also help many potential clients get their loans sanctioned .To classify the defaulters, we have tried various approaches including PCA and Random Forests for feature selection and Random Forest, k-nn and XGBOOST for modelling with XGBOOST giving us the best results. To build the models, Jupyter Notebook IDE with a python 3.7 kernel was used on the cloud computing service Microsoft Azure [@www-kagglehomecredit] .
 
 
 
@@ -66,6 +66,31 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 ![Relation between OCCUPATION\_TYPE, AMT\_INCOME\_TOTAL and CODE\_GENDER ](images/occtype_gender.png) {#fig:occgender}
 
 * Correalations between the variables were found before heading to feature selection.
+
+## Feature Preprocessing
+
+* Missing value treatment:
+	* During the exploratory data analysis, it was found that 67 variables had one or more missing values.
+	* For variables with less than one percent missing values, instances with missing values were removed from the dataset.
+	* For variables with missing values between one and twenty percent, their missing values were replaced by the median value.
+	* Apart from EXT\_SOURCE1, variables with more than thirty percent missing values were removed from the dataset as they didn't seem intuitive and replacing such high values of data would only skew the actual values.
+	* While modeling for one of the XG-BOOST models, all the variables were considered irrespective of percentage of missing values as the model accepts missing values.
+	
+* Outlier treatment on selected numerical variables:
+	* Outliers were found in most of the numerical columns and they may affect the model results
+	* For selected columns, Winsorization was conducted. It's a clipping approach to make all the data stay between the first and ninety-ninth percentile [@www-winsorization-kdn]  . 
+
+
+* One hot encoding:
+	* As most machine learning algorithms cannot apprehend categorical variables, they have to be mapped to the number space.
+	* One way of doing this is by representing the categorical variables as series of binary vectors.
+	* Each vector represents a label, where 1 indicates its presence and 0 its absence [@www-onehot-encoding] .
+	* This was achieved by using pandas.get\_dummies on all the categorical variables 
+
+
+* Removing multi-collinearity:
+	* The independent variables with a Pearson correlation of more than 0.9 were removed to curb redundancy in model.
+
 
 ## Feature Engineering
 

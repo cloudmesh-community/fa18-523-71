@@ -108,7 +108,25 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 	*  A Random forest classifier was trained on the train data and the importance of each variable was found using the model.
 	*  Taking the importance scores into consideration, top 15 features were selected to make a model on
  
-## Modeling
+## Modeling Techniques 
+
+
+### Random Forest
+
+Random Forests is an ensemble technique that fits several decision tree classifiers on different subsets of dataset.Each tree "votes" for a specific class and the class with most number of votes is chosen, in this way it gives a better prediction  accuracy than a decision tree while simultaneously controlling over-fitting [@www-randomforest-model] [@www-rf-classifier] .
+
+### K nn
+
+KNN classifies a point based on feature similarity, i.e., by considering the classes k points around it belong to, It is a called a lazy learning algorithm as it requires no prior knowledge about the distribution of data and uses all the training data while classifying the test data [@www-knn-model] .
+
+### XGBOOST
+
+> XGBoost is an implementation of the Gradient Boosted Decision Trees algorithm. We go through cycles that repeatedly builds new models and combines them into an ensemble model [@www-xgboost-model] .
+
+
+In every cycle, the errors in every observation are taken to build a new model on reducing them. The new predictions from such models are added to the ensemble of models  [@www-xgboost-model] .
+
+
 
 ## Results
 

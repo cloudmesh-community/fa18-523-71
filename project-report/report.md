@@ -161,7 +161,7 @@ The dataset where no missingvalue and outlier treatment is conducted is taken an
 
 
 ## Conclusion
-
+Microsoft Azure as a cloud platform helps in running the jupyter notebooks on cloud anywhere and is works very robustly. The model 6 with XGBOOST trained on the dataset of the features with high importance according to Random Forest showed to give the best results out of the six models, The evaluation metric we considered for the selection of models was confusion matrix.
 
 ## Acknowledgment
 We would like to thank professor Dr. Gregor von Laszewski for helping us with the problem statement and dataset selection and also for all the guidance he has provided us during the coursework. We would also like to thank the associate instructors for helping us and guiding us. 

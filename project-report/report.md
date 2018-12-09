@@ -26,7 +26,7 @@ Defaulting is a case of inability of a debtor to meet the legal obligation of de
 
 ## Related work 
 
-One of the man studies on ameliorating the acceptance and the rejection criterion of the potential customers is 'investigates lenders and borrowers back in 1990 pertaining to the activities of consumer rationing for the United States' credit market. His investigation suggested of the rejections in loans due to the credit history, their age, income and the amount of collateral offered by the borrower to secure loan in case of delinquency. In due course of time, Crook (1996) replicated Jappelli's (1990) by saying more education for a household head would allow the potential borrower to be more capable in forecasting his loan repaying capability, thereby, leveraging the lender's thoughts on his decisions. With a view to measure the risk of portfolio for a sample loan, Roszbach K. and Jacobson T. (1998) built a statistical model with a view to provide a demo on the evaluation of the alternate lending policies and concluded that the decision on credit grant is not affected by the income. A little different to the above studies, the recent studies examine the effects of different variables on the customer’s payment performance characteristics [@www-consumercreditrisk-paper].
+One of the main studies on ameliorating the acceptance and the rejection criterion of the potential customers is 'Investigates lenders and borrowers back in 1990 pertaining to the activities of consumer rationing for the United States' credit market. His investigation suggested of the rejections in loans due to the credit history, their age, income and the amount of collateral offered by the borrower to secure loan in case of delinquency. In due course of time, Crook (1996) replicated Jappelli's (1990) by saying more education for a household head would allow the potential borrower to be more capable in forecasting his loan repaying capability, thereby, leveraging the lender's thoughts on his decisions. With a view to measure the risk of portfolio for a sample loan, Roszbach K. and Jacobson T. (1998) built a statistical model with a view to provide a demo on the evaluation of the alternate lending policies and concluded that the decision on credit grant is not affected by the income. A little different to the above studies, the recent studies examine the effects of different variables on the customer’s payment performance characteristics [@www-consumercreditrisk-paper].
 
 ## Data 
 
@@ -39,6 +39,8 @@ The main dataset has 307511 rows with each row representing individual loan appl
 
 
 ## Technologies used
+
+
 
 ## Exploratory Data Analysis 
 

@@ -40,6 +40,16 @@ The main dataset has 307511 rows with each row representing individual loan appl
 
 ## Technologies used
 
+* Python, being a high-level object-oriented programming language, we have extensively coded in Python 3.0 as it is used for general purpose programming [@www-python-libraries].
+	* **Matplotlib:** Matplotlib is one of the most widely used visualization libraries in python that provides 2D plotting library to generate plots, enabling quality figures in interactive environments across diverse platforms. 
+	* **Seaborn:** Seaborn is an extensively used data visualization package available in python that is built on top of matplotlib. It provides an interface to draw appealing graphs and draw enlightening factual illustrations. 
+	* **Sklearn:** Scikit-learn is one of the leading machine learning library featuring different classification, regression and clustering algorithms. Main purpose of using scikit-learn was to conduct random-forests, gradient boosting and k-means.
+
+* Data Science Virtual machine on Azure
+	* The Microsoft Data science virtual machine is windows Azure Virtual machine. VM has preinstalled tools for data analytics and machine learning. You can create your own VM [@www-microsoftazure-vm].
+	* The entire data is being loaded in azure cloud and can be accessed from the cloud directly [@ www-microsoftazure-freeaccount].
+	* *Jupyter Notebook* Azure notebook on azure cloud services supports Jupyter Notebook that allows you to interact in many ways. It supports python 2 and 3. [ @www-microsoftazure-jupyternootbook]
+	* XGBoost, Preinstalled machine learning tool on VM for fast and accurate boosted tree implementation [@www-microsoftazure-vm]
 
 
 ## Exploratory Data Analysis 

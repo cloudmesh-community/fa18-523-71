@@ -11,7 +11,7 @@
 
 **:mortar_board: Learning Objectives**
 
-* Run different Machine learning Algorithms to classify the loan defaulters
+* Run different Machine learning Algorithms to classify the loan defaulters and find the most optimal model
 * Learn how to use the Microsoft Azure platform 
 
 
@@ -20,7 +20,7 @@
 
 ---
 
-### Keywords: fa18-523-71, fa18-523-59, Exploratory Data Analysis, Python, Jupyter Notebook, Microsoft Azure, Classification, Credit, K-NN, Random Forest, PCA, XGBOOST 
+Keywords: fa18-523-71, fa18-523-59, Exploratory Data Analysis, Python, Jupyter Notebook, Microsoft Azure, Classification, Credit, K-NN, Random Forest, PCA, XGBOOST 
 
 
 ---

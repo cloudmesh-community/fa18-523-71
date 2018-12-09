@@ -1,4 +1,4 @@
-# Loan Defaulter Analysis :hand: fa18-523-71 fa18-523-59
+# Loan Defaulter Analysis :smiley: fa18-523-71 fa18-523-59
 
 | Uma Kota, Jatinkumar Bhutka
 | umabkota@iu.edu, jdbhutka@iu.edu

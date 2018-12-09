@@ -7,11 +7,15 @@
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-71/edit/master/project-report/report.md)
 | code: Project report only
 
+---
 
-## Abstract
+**:mortar_board: Learning Objectives**
 
-Classifying loan defaulters from potential clients is one of the most important probelms in banking sector today. Especially, when there is little or no data regarding the customers\' credit history, it's difficult to predict whether the client will be able to repay their loan amount.In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data in a kaggle competetion to urge the datascience enthusiasts all over the world to come up with new models and predictions. If an optimal solution is achieved, it would help us understand the clients potential of repaying the loan and also help many potential clients get their loans sanctioned .To classify the defaulters, we have tried various approaches including PCA and Random Forests for feature selection and Random Forest, k-nn and XGBOOST for modelling with XGBOOST giving us the best results. To build the models, Jupyter Notebook IDE with a python 3.7 kernel was used on the cloud computing service Microsoft Azure [@www-kagglehomecredit] .
+* Run different Machine learning Algorithms to classify the loan defaulters
+* Learn how to use the Microsoft Azure platform 
 
+
+---
 
 
 ---
@@ -20,6 +24,12 @@ Classifying loan defaulters from potential clients is one of the most important 
 
 
 ---
+
+
+## Abstract
+
+Classifying loan defaulters from potential clients is one of the most important probelms in banking sector today. Especially, when there is little or no data regarding the customers\' credit history, it's difficult to predict whether the client will be able to repay their loan amount.In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data in a kaggle competetion to urge the datascience enthusiasts all over the world to come up with new models and predictions. If an optimal solution is achieved, it would help us understand the clients potential of repaying the loan and also help many potential clients get their loans sanctioned .To classify the defaulters, we have tried various approaches including PCA and Random Forests for feature selection and Random Forest, k-nn and XGBOOST for modelling with XGBOOST giving us the best results. To build the models, Jupyter Notebook IDE with a python 3.7 kernel was used on the cloud computing service Microsoft Azure [@www-kagglehomecredit] .
+
 
 ## Introduction
 Defaulting is a case of inability of a debtor to meet the legal obligation of debt repayment on a loan or security when due just as in the case of a business where it fails to make coupon payments to his bondholders of issuing bonds. It has become increasingly important these days to manage the credit risk of the borrowers and hence see the revision of loan policies these days by many banking and financial institutions. To assess a borrower's credit risk, monitor borrower's behaviour are some of the key focus of interests in collecting the statistical data on the consumer's behaviour is concerned. This study, specifically helps the financial institutions examine the borrower's credit payment performance with respect to some of the variables. Banking and Financial institutions come up with some exogenous acceptance rule wih a view to investigate how a customer's payment performance will be, therby, ranking the potential customers according to the predicted default possibilities. The Related Research section gives a brief review of the ongoing and existing relevant research followed by models and predictions used to identify the potential clients of their ability to repay the loan.

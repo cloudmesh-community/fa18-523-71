@@ -24,14 +24,18 @@ Classifying loan defaulters from potential clients is one of the most important 
 ## Introduction
 Defaulting is a case of inability of a debtor to meet the legal obligation of debt repayment on a loan or security when due just as in the case of a business where it fails to make coupon payments to his bondholders of issuing bonds. It has become increasingly important these days to manage the credit risk of the borrowers and hence see the revision of loan policies these days by many banking and financial institutions. To assess a borrower's credit risk, monitor borrower's behaviour are some of the key focus of interests in collecting the statistical data on the consumer's behaviour is concerned. This study, specifically helps the financial institutions examine the borrower's credit payment performance with respect to some of the variables. Banking and Financial institutions come up with some exogenous acceptance rule wih a view to investigate how a customer's payment performance will be, therby, ranking the potential customers according to the predicted default possibilities. The Related Research section gives a brief review of the ongoing and existing relevant research followed by models and predictions used to identify the potential clients of their ability to repay the loan.
 
+## Related work 
+
+One of the man studies on ameliorating the acceptance and the rejection criterion of the potential customers is 'investigates lenders and borrowers back in 1990 pertaining to the activities of consumer rationing for the United States' credit market. His investigation suggested of the rejections in loans due to the credit history, their age, income and the amount of collateral offered by the borrower to secure loan in case of delinquency. In due course of time, Crook (1996) replicated Jappelli's (1990) by saying more education for a household head would allow the potential borrower to be more capable in forecasting his loan repaying capability, thereby, leveraging the lender's thoughts on his decisions. With a view to measure the risk of portfolio for a sample loan, Roszbach K. and Jacobson T. (1998) built a statistical model with a view to provide a demo on the evaluation of the alternate lending policies and concluded that the decision on credit grant is not affected by the income. A little different to the above studies, the recent studies examine the effects of different variables on the customer’s payment performance characteristics.
 
 ## Data 
+
 Home Credit released seven tables of data from different sources for this competition, but this project is confined to the main dataset which has features attributing to the loan, loan applicant and time of the loan. 
 
 The main dataset has 307511 rows with each row representing individual loan application and 122 features (variables) including the TARGET which indicates if the loan is repaid (indicated by a 0) or not repaid (indicated by 1). For our project, we have taken the first 150000 rows for train and the next 30000 rows as the test dataset.
 
 
-## Related work 
+
 
 
 ## Technologies used

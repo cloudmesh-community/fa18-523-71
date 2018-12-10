@@ -11,12 +11,12 @@
 
 # Installation:
 
-# Data:
+**Data:**
 
 * [*application_train*](https://github.com/cloudmesh-community/fa18-523-71/tree/master/project-code/code)
 
 
-**Data Setup:**
+**Setup:**
 
 * Install the required software and packages mentioned above.
 * Clone our project repository from GitHub using the following command into a directory

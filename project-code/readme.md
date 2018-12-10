@@ -11,11 +11,18 @@
 
 # Installation:
 
+# Data:
+
+* [*application_train*](https://github.com/cloudmesh-community/fa18-523-71/tree/master/project-code/code)
+
+
 **Data Setup:**
 
 * Install the required software and packages mentioned above.
 * Clone our project repository from GitHub using the following command into a directory
+	```bash
 	$ git clone https://github.com/cloudmesh-community/fa18-523-71.git
+	```
 * Create the free account on Microsoft Azure. You will get free credit of 200$ for 12 months.
     *	Create resource on azure portal from left hand side pane.
     *	Create new storage instance under resource group field.

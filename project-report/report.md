@@ -20,7 +20,7 @@
 
 ---
 
-**Keywords**: fa18-523-71, fa18-523-59, Exploratory Data Analysis, Python, Jupyter Notebook, Microsoft Azure, Classification, Credit, K-NN, Random Forest, PCA, XGBOOST 
+**Keywords**: fa18-523-71, fa18-523-59, Exploratory Data Analysis, Python, Jupyter Notebook, Microsoft Azure, Classification, Credit, K-NN, Random Forest, PCA, XGBOOST.
 
 
 ---
@@ -28,7 +28,7 @@
 
 ## Abstract
 
-Classifying loan defaulters from potential clients is one of the most important probelms in banking sector today. Especially, when there is little or no data regarding the customers\' credit history, it's difficult to predict whether the client will be able to repay their loan amount.In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data in a kaggle competetion to urge the datascience enthusiasts all over the world to come up with new models and predictions. If an optimal solution is achieved, it would help us understand the clients potential of repaying the loan and also help many potential clients get their loans sanctioned .To classify the defaulters, we have tried various approaches including PCA and Random Forests for feature selection and Random Forest, k-nn and XGBOOST for modelling with XGBOOST giving us the best results. To build the models, Jupyter Notebook IDE with a python 3.7 kernel was used on the cloud computing service Microsoft Azure [@www-kagglehomecredit] .
+Classifying loan defaulters from potential clients is one of the most important probelms in banking sector today. Especially, when there is little or no data regarding the customers\' credit history, it's difficult to predict whether the client will be able to repay their loan amount.In 2018, Home Credit , an international non-bank, consumer finance group released a variety of data in a kaggle competetion to urge the datascience enthusiasts all over the world to come up with new models and predictions. If an optimal solution is achieved, it would help us understand the clients potential of repaying the loan and also help many potential clients get their loans sanctioned .To classify the defaulters, we have tried various approaches including PCA and Random Forests for feature selection and Random Forest, k-nn and XGBOOST for modelling with XGBOOST giving us the best results. To build the models, Jupyter Notebook IDE with a python 3.7 kernel was used on the cloud computing service Microsoft Azure [@www-kagglehomecredit].
 
 
 ## Introduction
@@ -58,8 +58,8 @@ The main dataset has 307511 rows with each row representing individual loan appl
 * Data Science Virtual machine on Azure
 	* The Microsoft Data science virtual machine is windows Azure Virtual machine. VM has preinstalled tools for data analytics and machine learning. You can create your own VM [@www-microsoftazure-vm].
 	* The entire data is being loaded in azure cloud and can be accessed from the cloud directly [@ www-microsoftazure-freeaccount].
-	* *Jupyter Notebook* Azure notebook on azure cloud services supports Jupyter Notebook that allows you to interact in many ways. It supports python 2 and 3. [ @www-microsoftazure-jupyternootbook]
-	* XGBoost, Preinstalled machine learning tool on VM for fast and accurate boosted tree implementation [@www-microsoftazure-vm]
+	* *Jupyter Notebook* Azure notebook on azure cloud services supports Jupyter Notebook that allows you to interact in many ways. It supports python 2 and 3 [ @www-microsoftazure-jupyternootbook].
+	* XGBoost, Preinstalled machine learning tool on VM for fast and accurate boosted tree implementation [@www-microsoftazure-vm].
 
 
 ## Exploratory Data Analysis 
@@ -70,27 +70,28 @@ The dataset with high dimensionality of 122 features required a series of univar
 * Number and percentage of missing values for each column were found to conduct missing value treatment on the dataset. 67 of the 122 columns had one or more missing values.
 * The distribution of labels for the dependent variable,TARGET, was seen by plotting a countplot of the variable. It can be seen in the figure that the instances of repaid and not repaid are balanced. The instances where the customer has not repaid are very sparse making this problem a case of rare event modeling.
 
-![Label Distribution of Target](images/countplot.png) {#fig:LabelDistributionofTarget}
+![Label Distribution of Target](images/countplot.png){#fig:LabelDistributionofTarget}
 
 * Distributions of the intuitively important variables were also plotted to check for outliers and skewedness and it was found that many variables exhibited skewed distributions with outliers. In the figure +@fig:AMT_INCOME_TOTAL_dist, the histogram plot, shows the distribution of AMT\_INCOME\_TOTAL which captures total income of the applicant. In the figure +@fig:AMT_INCOME_TOTAL_outlier, the barplot shows the range of the feature and the outliers that lie outside the IQR (Inter Quartile Range) 
 
-![Distribution of AMT\_INCOME\_TOTAL](images/AMT_INCOME_TOTAL_dist.png) {#fig:AMT_INCOME_TOTAL_dist}
 
-![Outliers in AMT\_INCOME\_TOTAL](images/AMT_INCOME_TOTAL_barplot.png) {#fig:AMT_INCOME_TOTAL_outlier}
+![Distribution of AMT\_INCOME\_TOTAL](images/AMT_INCOME_TOTAL_dist.png){#fig:AMT_INCOME_TOTAL_dist}
+
+![Outliers in AMT\_INCOME\_TOTAL](images/AMT_INCOME_TOTAL_barplot.png){#fig:AMT_INCOME_TOTAL_outlier}
 
 Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:OCCtypedist
 
-![Distribution of OCCUPATION\_TYPE](images/OCCtypedist.png) {#fig:OCCtypedist}
+![Distribution of OCCUPATION\_TYPE](images/OCCtypedist.png){#fig:OCCtypedist}
 
 * Various bivariate analyses were also conducted to understand the relationship between the dependent and independent variables and relationships in between independent variables and to make sure no multi-collinearity exists in the dataset before we conduct statistical modeling. +@fig:extsource3target shows the variance of the EXT\_SOURCE3 variable with respect to the dependent variable and +@fig:occ_target_bivariate shows the same for the variable OCCUPATION\_TYPE
 
-![Relation between EXT\_SOURCE3 and TARGET](images/extsource3target.png) {#fig:extsource3target}
+![Relation between EXT\_SOURCE3 and TARGET](images/extsource3target.png){#fig:extsource3target}
 
-![Relation between OCCUPATION\_TYPE and TARGET](images/occ_target_bivariate.png) {#fig:occ_target_bivariate}
+![Relation between OCCUPATION\_TYPE and TARGET](images/occ_target_bivariate.png){#fig:occ_target_bivariate}
 
 +@fig:occgender shows the relationship between gender, occupation type and income
 
-![Relation between OCCUPATION\_TYPE, AMT\_INCOME\_TOTAL and CODE\_GENDER ](images/occtype_gender.png) {#fig:occgender}
+![Relation between OCCUPATION\_TYPE, AMT\_INCOME\_TOTAL and CODE\_GENDER ](images/occtype_gender.png){#fig:occgender}
 
 * Correalations between the variables were found before heading to feature selection.
 
@@ -105,13 +106,13 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 	
 * Outlier treatment on selected numerical variables:
 	* Outliers were found in most of the numerical columns and they may affect the model results
-	* For selected columns, Winsorization was conducted. It's a clipping approach to make all the data stay between the first and ninety-ninth percentile [@www-winsorization-kdn]  . 
+	* For selected columns, Winsorization was conducted. It's a clipping approach to make all the data stay between the first and ninety-ninth percentile [@www-winsorization-kdn].
 
 
 * One hot encoding:
 	* As most machine learning algorithms cannot apprehend categorical variables, they have to be mapped to the number space.
 	* One way of doing this is by representing the categorical variables as series of binary vectors.
-	* Each vector represents a label, where 1 indicates its presence and 0 its absence [@www-onehot-encoding] .
+	* Each vector represents a label, where 1 indicates its presence and 0 its absence [@www-onehot-encoding].
 	* This was achieved by using pandas.get\_dummies on all the categorical variables 
 
 
@@ -119,7 +120,7 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 	* The independent variables with a Pearson correlation of more than 0.9 were removed to curb redundancy in model.
 
 * Scaling the data:
-	* Using the Scikit-learn sklearn.preprocessing.MinMaxScaler module, the values were scaled such that they are all in between0 and 1  [@www-winsorization-kdn] .
+	* Using the Scikit-learn sklearn.preprocessing.MinMaxScaler module, the values were scaled such that they are all in between0 and 1 [@www-winsorization-kdn].
 	
 ## Feature Engineering
 * New Features:
@@ -127,7 +128,7 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 
 * Principal Component Analysis:
 	* PCA is a procedure that changes potentially correlated variables into a smaller set of independent principal components.
-	* The variability of dependent variable is mostly explained by the first component and as we proceed further, the variability explained decreases [@www-pca-ncsu] .
+	* The variability of dependent variable is mostly explained by the first component and as we proceed further, the variability explained decreases [@www-pca-ncsu].
 	* PCA was applied on the ten most intuitive features from the whole set.
 	* The top 6 PCs were seen to explain most of the variability 
 	
@@ -140,7 +141,7 @@ Distribution of the categorical variable,OCCUPATION\_TYPE, can be seen in +@fig:
 
 ### Random Forest
 
-Random Forests is an ensemble technique that fits several decision tree classifiers on different subsets of dataset.Each tree votes for a specific class and the class with most number of votes is chosen, in this way it gives a better prediction  accuracy than a decision tree while simultaneously controlling over-fitting [@www-randomforest-model] [@www-rf-classifier] .
+Random Forests is an ensemble technique that fits several decision tree classifiers on different subsets of dataset.Each tree votes for a specific class and the class with most number of votes is chosen, in this way it gives a better prediction  accuracy than a decision tree while simultaneously controlling over-fitting [@www-randomforest-model], [@www-rf-classifier].
 
 ### K nn
 
@@ -148,43 +149,43 @@ KNN classifies a point based on feature similarity, i.e., by considering the cla
 
 ### XGBOOST
 
-> XGBoost is an implementation of the Gradient Boosted Decision Trees algorithm. We go through cycles that repeatedly builds new models and combines them into an ensemble model [@www-xgboost-model] .
+> XGBoost is an implementation of the Gradient Boosted Decision Trees algorithm. We go through cycles that repeatedly builds new models and combines them into an ensemble model [@www-xgboost-model].
 
 
-In every cycle, the errors in every observation are taken to build a new model on reducing them. The new predictions from such models are added to the ensemble of models  [@www-xgboost-model] .
+In every cycle, the errors in every observation are taken to build a new model on reducing them. The new predictions from such models are added to the ensemble of models [@www-xgboost-model].
 
 
 
 ### Model 1
 Using the top 15 features given by scikit-learn's RFClassifier new test and train datasets are made. The new train dataset is used to fit a new Random Forest Classifier. When run on test, the classifier gave an accuracy score of 0.90 but when we look in to the confusion matrix we can see that the F1 score is very low (0.017) true positive cases in case of the loan defaulters
 
-![Confusion Matrix of Model1](images/model1.PNG) {#fig:m1ConfusionMatrix}
+![Confusion Matrix of Model1](images/model1.PNG){#fig:m1ConfusionMatrix}
 
 
 ### Model 2
 Using the new features created by PCA during feature analysis, another model is built by implementing 1-Nearest Neihbours (1 was chosen after tweaking for the best accuracy metrics), an f1 score of 0.13, although the model improved, the no. of true positive cases for loan defaulters was less.
 
-![Confusion Matrix of Model2](images/model2.PNG) {#fig:m2ConfusionMatrix}
+![Confusion Matrix of Model2](images/model2.PNG){#fig:m2ConfusionMatrix}
 
 ### Model 3
 XGBOOST model was applied to the complete cleaned final dataset that had missing value treatment and outlier treatment done on it. With XGBOOST, while the accuracy dipped the f1 score improved with the number of true positive cases for the defaulter increasing  double fold 
-![Confusion Matrix of Model3](images/model3.PNG) {#fig:m3ConfusionMatrix}
+![Confusion Matrix of Model3](images/model3.PNG){#fig:m3ConfusionMatrix}
 
 ### Model 4
 The final dataset was replaced by the dataset generated by PCA and XGBOOST was applied on the Principal Components. The accuracy and f1 score decreased with new dataset.
 
-![Confusion Matrix of Model4](images/model4.PNG) {#fig:m4ConfusionMatrix}
+![Confusion Matrix of Model4](images/model4.PNG){#fig:m4ConfusionMatrix}
 
 ### Model 5
 Another dataframe is created using the features that seem intuitive and XGBOOST is applied to the new dataset, a rise in accuracy and true positives of loan defaulters was observed.
 
-![Confusion Matrix of Model5](images/model5.PNG) {#fig:m5ConfusionMatrix}
+![Confusion Matrix of Model5](images/model5.PNG){#fig:m5ConfusionMatrix}
 
 
 ### Model 6
 The dataset where no missingvalue and outlier treatment is conducted is taken and the top 15 features from RF are subsetted to become the new training set for the XGB model, this model resulted in an accuracy score of 0.88 and highest number of true positive cases of loa defaulters of all the 6 models
 
-![Confusion Matrix of Model6](images/model6.PNG) {#fig:m6ConfusionMatrix}
+![Confusion Matrix of Model6](images/model6.PNG){#fig:m6ConfusionMatrix}
 
 
 ## Conclusion

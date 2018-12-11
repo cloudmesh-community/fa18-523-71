@@ -168,7 +168,8 @@ Using the new features created by PCA during feature analysis, another model is 
 ![Confusion Matrix of Model2](images/model2.PNG){#fig:m2ConfusionMatrix}
 
 ### Model 3
-XGBOOST model was applied to the complete cleaned final dataset that had missing value treatment and outlier treatment done on it. With XGBOOST, while the accuracy dipped the f1 score improved with the number of true positive cases for the defaulter increasing  double fold 
+XGBOOST model was applied to the complete cleaned final dataset that had missing value treatment and outlier treatment done on it. With XGBOOST, while the accuracy dipped the f1 score improved with the number of true positive cases for the defaulter increasing  double fold.
+
 ![Confusion Matrix of Model3](images/model3.PNG){#fig:m3ConfusionMatrix}
 
 ### Model 4

@@ -1,4 +1,4 @@
-# IOT and Big Data: Applications and Future Trends :smiley:  :wave: :exclamation: fa18-523-71 fa18-523-59 
+# IOT and Big Data: Applications and Future Trends
 
   
 
